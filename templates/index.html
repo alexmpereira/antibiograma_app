@@ -64,13 +64,24 @@
         <div class="result-header">Resultado da Análise</div>
         <div class="result-value">{{ resultado }}</div>
       </div>
+      
+      {% if nota_clinica %}
+        <div class="clinical-note-card">
+          <div class="clinical-note-title">Notas de Orientação Clínica</div>
+          <div>{{ nota_clinica }}</div>
+        </div>
+      {% endif %}
     {% endif %}
+    
+    <div class="clinical-disclaimer">
+      <strong>Aviso de Uso Clínico:</strong> Esta ferramenta destina-se exclusivamente ao suporte de decisão e triagem preliminar de antibiogramas. Os resultados gerados devem ser auditados por um profissional de microbiologia qualificado antes da liberação de qualquer laudo ou conduta terapêutica.
+    </div>
     
     <div class="footer-info">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd" />
       </svg>
-      Parâmetros baseados nas diretrizes oficiais BrCAST/EUCAST
+      BrCAST/EUCAST (Válida a partir de {{ publish_date }})
     </div>
   </div>
 </body>

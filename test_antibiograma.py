@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 import pandas as pd
 import os
+import json
 from app import parse_limit, classificar_antibiograma
 from extract_br_cast import extract_breakpoints_generic
 
@@ -144,6 +145,48 @@ class TestAntibiograma(unittest.TestCase):
         self.assertTrue('>1' in str(row_tetra.iloc[0]['r_cim']))
         self.assertTrue('22' in str(row_tetra.iloc[0]['diametro_s_mm']))
         self.assertTrue('<22' in str(row_tetra.iloc[0]['diametro_r_mm']))
+
+    def test_parse_limit_safety(self):
+        # Testa a segurança do parser contra notas explicativas e abreviações
+        self.assertIsNone(parse_limit('Nota1,2'))
+        self.assertIsNone(parse_limit('Nota5'))
+        self.assertIsNone(parse_limit('NotaA,B'))
+        self.assertIsNone(parse_limit('IE'))
+        self.assertIsNone(parse_limit('EIA'))
+        self.assertEqual(parse_limit('(20)'), 20.0)
+        self.assertEqual(parse_limit('(<20)'), 20.0)
+
+    def test_control_cases_duplo_controle(self):
+        # Teste de duplo controle utilizando o arquivo JSON pré-auditado
+        control_file = 'test_control_cases.json'
+        self.assertTrue(os.path.exists(control_file), f"O arquivo {control_file} não existe.")
+        
+        with open(control_file, 'r', encoding='utf-8') as f:
+            cases = json.load(f)
+            
+        csv_path = 'breakpoints_br_cast.csv'
+        self.assertTrue(os.path.exists(csv_path), "O arquivo de breakpoints.csv não existe.")
+        df = pd.read_csv(csv_path)
+        
+        for case in cases:
+            micro = case['microorganismo']
+            antibio = case['antibiotico']
+            diametro = case['diametro']
+            expected = case['expected_category']
+            
+            # Filtra do CSV local
+            linha = df[(df['microorganismo'] == micro) & (df['antibiotico'] == antibio)]
+            self.assertFalse(linha.empty, f"Antibiótico {antibio} não encontrado para {micro} no CSV.")
+            
+            row = linha.iloc[0]
+            s_cut = parse_limit(row['diametro_s_mm'])
+            i_lower = parse_limit(row['diametro_i_mm'])
+            r_cut = parse_limit(row['diametro_r_mm'])
+            
+            self.assertIsNotNone(s_cut or r_cut, f"Os limites de diâmetro para {antibio} em {micro} são nulos.")
+            
+            result = classificar_antibiograma(diametro, s_cut, i_lower, r_cut)
+            self.assertIn(expected, result, f"Falha no caso de controle: {micro} + {antibio} com halo {diametro}. Esperado: {expected}, Recebido: {result}")
 
 if __name__ == '__main__':
     unittest.main()

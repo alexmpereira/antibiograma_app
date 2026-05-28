@@ -1,0 +1,56 @@
+[
+  {
+    "microorganismo": "Enterobacterales",
+    "antibiotico": "Ertapenem",
+    "diametro": 25.0,
+    "expected_category": "S – Sensível"
+  },
+  {
+    "microorganismo": "Enterobacterales",
+    "antibiotico": "Ertapenem",
+    "diametro": 22.0,
+    "expected_category": "R – Resistente"
+  },
+  {
+    "microorganismo": "Enterobacterales",
+    "antibiotico": "Amicacina (infecções sistêmicas)",
+    "diametro": 19.0,
+    "expected_category": "S – Sensível"
+  },
+  {
+    "microorganismo": "Enterobacterales",
+    "antibiotico": "Amicacina (infecções sistêmicas)",
+    "diametro": 15.0,
+    "expected_category": "R – Resistente"
+  },
+  {
+    "microorganismo": "Pseudomonas",
+    "antibiotico": "Imipenem",
+    "diametro": 52.0,
+    "expected_category": "S – Sensível"
+  },
+  {
+    "microorganismo": "Pseudomonas",
+    "antibiotico": "Imipenem",
+    "diametro": 35.0,
+    "expected_category": "I – Sensível, aumentando exposição"
+  },
+  {
+    "microorganismo": "Pseudomonas",
+    "antibiotico": "Imipenem",
+    "diametro": 18.0,
+    "expected_category": "R – Resistente"
+  },
+  {
+    "microorganismo": "Staphylococcus",
+    "antibiotico": "Tetraciclina",
+    "diametro": 25.0,
+    "expected_category": "S – Sensível"
+  },
+  {
+    "microorganismo": "Staphylococcus",
+    "antibiotico": "Tetraciclina",
+    "diametro": 20.0,
+    "expected_category": "R – Resistente"
+  }
+]
