@@ -1,0 +1,6 @@
+
+microorganismo,antibiotico,s_cim,i_cim,r_cim,diametro_s_mm,diametro_i_mm,diametro_r_mm,notas
+Pseudomonas aeruginosa,Aztreonam,"<=0.001","0.002-16",">16",">=50","18-49","<18","dados extraídos do PDF BrCAST/EUCAST 2025; AIT ausente; disco de 30 µg"
+Pseudomonas aeruginosa,Ciprofloxacino,"<=0.5","0.5-1",">1",">=26","23-25","<23","valores aproximados extraídos do PDF; conferir tabela BrCAST/EUCAST"
+Pseudomonas aeruginosa,Levofloxacino,"<=1","1-2",">2",">=20","18-19","<18","valores aproximados; somente para uso demonstrativo"
+Pseudomonas aeruginosa,Norfloxacino (ITU não complicada),"<=2","2-4",">4",">=17","13-16","<13","somente ITU não complicada; valores aproximados"

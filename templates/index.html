@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antibiograma</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="tooltip">
+      &#9432;
+      <span class="tooltiptext">
+        Selecione o microrganismo e o antibiótico testado a partir das listas.
+        Informe o diâmetro medido do halo (mm). O sistema retornará S, I ou R
+        conforme os pontos de corte do BrCAST/EUCAST.
+      </span>
+    </div>
+
+    <h1>Classificação do antibiograma</h1>
+
+    <form method="post">
+      <label>Microrganismo:
+        <select name="microorganismo" onchange="this.form.submit()">
+          {% for micro in micro_list %}
+            <option value="{{ micro }}" {% if micro == selected_micro %}selected{% endif %}>{{ micro }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Antibiótico:
+        <select name="antibiotico">
+          {% for ab in antibios %}
+            <option value="{{ ab }}">{{ ab }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Diâmetro medido (mm):
+        <input type="number" step="0.1" name="diametro" required>
+      </label>
+      <button type="submit">Classificar</button>
+    </form>
+
+    {% if resultado %}
+      <div class="result">{{ resultado }}</div>
+    {% endif %}
+  </div>
+</body>
+</html>

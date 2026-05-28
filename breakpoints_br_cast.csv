@@ -1,0 +1,1671 @@
+microorganismo,antibiotico,s_cim,i_cim,r_cim,diametro_s_mm,diametro_i_mm,diametro_r_mm,notas
+Enterobacterales,Ampicilina iv1,8,-,>8,14A,-,<14A,"1. Para obter informações sobre como implementar os novos pontos de corte de aminopenicilinas, consultar https://www.eucast.org/eucastguidancedocuments/.
+2. Para fins de teste de sensibilidade, a concentração de sulbactam é fixada em 4 mg/L.
+3/D. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/.
+4. Para fins de teste de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L.
+5. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L.
+
+A. Ignorar o crescimento que pode aparecer como um halo interno fino em alguns lotes de ágar Mueller-Hinton.
+B. Sensibilidade inferida da ampicilina (iv ou oral).
+C. Isolados Sensíveis à ampicilina (iv ou oral) podem ser reportados como ""Sensível, aumentando exposição"" (I) à ""amoxicilina oral (infecções com origem no trato urinário)"". Isolados Resistentes à ampicilina (iv ou oral) podem ser reportados como Resistentes à ""amoxicilina oral (infecções com origem no trato urinário)"".
+E. Isolados sensíveis à ampicilina não apresentam mecanismos de resistência fenotipicamente detectáveis ​​e ""amoxicilina oral (outras indicações)"" pode ser usada em alta exposição em terapia combinada (ver Nota 3/D). Isolados resistentes à ampicilina podem ser reportados como resistentes à amoxicilina oral (outras indicações)."
+Enterobacterales,Ampicilina oral (exclusivamente infecção urinária [ITU] não complicada)1,8,-,>8,14A,-,<14A,
+Enterobacterales,Ampicilina-sulbactam iv1,82,-,>82,14A,-,<14A,
+Enterobacterales,Ampicilina-sulbactam oral (exclusivamente ITU não complicada)1,82,-,>82,14A,-,<14A,
+Enterobacterales,Amoxicilina iv1,8,-,>8,NotaB,NotaB,NotaB,
+Enterobacterales,Amoxicilina oral (infecções com origem no trato urinário)1,"0,001","0,002-8",>8,NotaC,NotaC,NotaC,
+Enterobacterales,Amoxicilina oral (exclusivamente ITU não complicada)1,8,-,>8,NotaB,NotaB,NotaB,
+Enterobacterales,Amoxicilina oral (outras indicações)1,"(0,001)3","(0,002-8)3",(>8)3,"NotaD,E","NotaD,E","NotaD,E",
+Enterobacterales,Amoxicilina-ácido clavulânico iv1,84,-,>84,19A,-,<19A,
+Enterobacterales,Amoxicilina-ácido clavulânico oral (infecções com origem no trato urinário)1,"0,0014","0,002-84",>84,50A,19-49A,<19A,
+Enterobacterales,Amoxicilina-ácido clavulânico oral (exclusivamente ITU não complicada),324,-,>324,16A,-,<16A,
+Enterobacterales,Amoxicilina-ácido clavulânico oral (outras indicações)1,"(0,001)3,4","(0,002-8)3,4","(>8)3,4","(50)A,D","(19-49)A,D","(<19)A,D",
+Enterobacterales,Piperacilina-tazobactam,85,-,>85,20,-,<20,
+Enterobacterales,"Temocilina (infecções com origem no trato urinário), E. coli, Klebsiella spp. (exceto K. aerogenes) e P. mirabilis","0,001","0,002-16",>16,50F,17-49F,<17F,
+Enterobacterales,Enterobacterales,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterobacterales,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterobacterales,Cefalosporinas1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Cefaclor (exclusivamente ITU não complicada),EI,EI,EI,EI,EI,EI,"1. Os pontos de corte de cefalosporinas para Enterobacterales permitem detectar todos os mecanismos de resistência clinicamente relevantes (incluindo ESBL e AmpC mediada por plasmídeos). Alguns isolados produtores de β-lactamases são sensíveis (S ou I) às cefalosporinas de 3ª ou 4ª gerações, considerando-se estes pontos de corte, e devem ser reportados de acordo com o resultado do teste, ou seja, a presença ou ausência de ESBL não influencia na categorização da sensibilidade. A detecção e caracterização de ESBL são recomendadas para fins de saúde pública e controle de infecções. 
+2/A. Isolados sensíveis à cefadroxila e/ou cefalexina podem ser reportados como ""sensível, aumentando exposição"" (I) para cefazolina.
+3. Para fins de testes de sensibilidade, a concentração de enmetazobactam é fixada em 8 mg/L. 
+4. A determinação da CIM por microdiluição deve ser realizada com caldo Mueller-Hinton sem ferro e as instruções de leitura específicas devem ser seguidas. Para condições de teste e instruções de leitura, consultar http://www.eucast.org/eucastguidancedocuments/."
+Enterobacterales,"Cefadroxila 
+(exclusivamente ITU não complicada)",16,-,>16,12,-,<12,
+Enterobacterales,"Cefalexina
+(exclusivamente ITU não complicada)",16,-,>16,14,-,<14,
+Enterobacterales,"Cefazolina  (infecções com origem no trato urinário),  E. coli e Klebsiella spp. (exceto K. aerogenes)","0,0012","0,002-42",>42,50A,20-49A,<20A,
+Enterobacterales,Cefepima,1,2-4,>4,27,24-26,<24,
+Enterobacterales,Cefepima-enmetazobactam,43,-,>43,22,-,22,
+Enterobacterales,Cefiderocol,24,-,>24,23,-,<23,
+Enterobacterales,Cefotaxima (infecções não meníngeas),1,2,>2,20,17-19,<17,"5. O ECOFF (8 mg/L) de cefoxitina apresenta alta sensibilidade, porém baixa especificidade para a identificação de  Enterobacterales produtoras de AmpC, uma vez que este fármaco é afetado também por alterações de permeabilidade e algumas carbapenemases. Isolados classicamente não produtores de AmpC têm perfil selvagem, enquanto os produtores de AmpCs plasmidiais ou hiperprodutores de AmpC cromossômica têm perfil não selvagem."
+Enterobacterales,Cefotaxima (meningite),1,-,>1,20,-,<20,
+Enterobacterales,Cefoxitina (exclusivamente triagem)5,Nota5,Nota5,Nota5,19,-,<19,
+Enterobacterales,"Cefpodoxima 
+(exclusivamente ITU não complicada)",1,-,>1,21,-,<21,
+Enterobacterales,Ceftarolina,"0,5",-,">0,5",23,-,<23,"6. Para fins de testes de sensibilidade, a concentração de avibactam é fixada em 4 mg/L."
+Enterobacterales,Ceftazidima,1,2-4,>4,22,19-21,<19,7. Ver tabela de dosagens para doses para diferentes indicações.
+Enterobacterales,Ceftazidima-avibactam,86,-,>86,13,-,<13,"8. Para fins de testes de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L."
+Enterobacterales,Ceftolozana-tazobactam7,28,-,>28,22,-,<22,
+Enterobacterales,Ceftriaxona (infecções não meníngeas),1,2,>2,27,24-26,<24,
+Enterobacterales,Ceftriaxona (meningite),1,-,>1,27,-,<27,
+Enterobacterales,"Cefuroxima IV, E. coli, Klebsiella spp. (exceto K. aerogenes ), Raoultella spp. e P. mirabilis","0,001","0,002-8",>8,50,19-49,<19,
+Enterobacterales,"Cefuroxima oral (exclusivamente ITU não complicada), E. coli, Klebsiella spp. (exceto K. aerogenes), Raoultella spp. e P. mirabilis",8,-,>8,19,-,<19,
+Enterobacterales,Enterobacterales,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterobacterales,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterobacterales,Carbapenêmicos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Doripenem,1,2,>2,24,21-23,<21,"1. Alguns isolados produtores de carbapenemases são categorizados como sensíveis (S ou I) utilizando estes pontos de corte e devem ser reportados de acordo com o resultado do teste, ou seja, a presença ou ausência de carbapenemases não influencia na categorização da sensibilidade. A detecção e a caracterização de carbapenemases são recomendadas para fins de saúde pública e controle de infecções. Para a triagem de carbapenemases, é recomendado um valor de corte para meropenem de >0,125 mg/L (diâmetro de halo <28 mm)."
+Enterobacterales,Ertapenem,"0,5",-,">0,5",23,-,<23,
+Enterobacterales,"Imipenem, Enterobacterales exceto Morganellaceae",2,4,>4,22,19-21,<19,
+Enterobacterales,"Imipenem2, Morganellaceae","0,001","0,002-4",>4,50,19-49,<19,"2. A atividade intrinsecamente baixa do imipenem contra Morganella morganii, Proteus spp. e Providencia spp. requer alta exposição ao imipenem."
+Enterobacterales,"Imipenem-relebactam, Enterobacterales exceto Morganellaceae",23,-,>23,22,-,<22,"3. Para fins de teste de sensibilidade, a concentração de relebactam é fixada em 4 mg/L."
+Enterobacterales,Meropenem (infecções não meníngeas),2,4-8,>8,22,16-21,<16,"4. Para fins de teste de sensibilidade, a concentração de vaborbactam é fixada em 8 mg/L."
+Enterobacterales,Meropenem (meningite),2,-,>2,22,-,<22,"A. Para isolados na AIT, se resistentes ao meropenem, reportar resistência ao meropenem-vaborbactam. Se não for resistente ao meropenem, reavaliar."
+Enterobacterales,Meropenem-vaborbactam,84,-,>84,20,-,<20,
+Enterobacterales,Monobactâmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Aztreonam1,1,2-4,>4,26,21-25,<21,"1. Os pontos de corte de aztreonam para Enterobacterales permitem detectar todos os mecanismos de resistência clinicamente relevantes (incluindo ESBL). Alguns isolados produtores de β-lactamases são sensíveis (S ou I) ao aztreonam utilizando estes pontos de corte e devem ser reportados de acordo com o resultado do teste, ou seja, a presença ou ausência de ESBL não influencia na categorização da sensibilidade. A detecção e a caracterização de ESBL são recomendadas para fins de saúde pública e controle de infecções."
+Enterobacterales,Aztreonam-avibactam,42,-,>42,25,-,<25,2. Para fins de teste de sensibilidade a concentração de avibactam é fixada em 4 mg/L.
+Enterobacterales,Enterobacterales,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterobacterales,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterobacterales,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,"Ciprofloxacino, Salmonella spp.1","0,06",-,">0,06",NotaA,NotaA,NotaA,"1. Existem evidências clínicas que indicam uma resposta inadequada ao tratamento com ciprofloxacino em infecções sistêmicas causadas por Salmonella spp. com qualquer mecanismo de resistência detectável às fluoroquinolonas. Os dados disponíveis relacionam-se principalmente a Salmonella Typhi, mas também há relatos de casos com resposta inadequada em relação à outras espécies de Salmonella. 
+2/B. Na meningite, onde todos os mecanismos de resistência às fluoroquinolonas devem ser excluídos, determinar a CIM ou inferir a sensibilidade a partir do teste de triagem com disco de pefloxacino 5 µg.
+3. Pontos de corte para fluoroquinolonas estão disponíveis para outros agentes.
+
+A. Os testes com disco de ciprofloxacino de 5 µg não são confiáveis para excluir todos os mecanismos de resistência às fluoroquinolonas em Salmonella spp. Para triagem de resistência ao ciprofloxacino em Salmonella spp., determinar a CIM para ciprofloxacino ou utilizar discos de pefloxacino 5 µg. 
+C. O teste de triagem com pefloxacino (disco de 5 µg) pode também ser utilizado para detectar mecanismos de resistência às fluoroquinolonas em outras Enterobacterales, como  E. coli, K. pneumoniae e Shigella spp.
+D. O teste de disco-difusão aguarda ação da indústria farmacêutica responsável."
+Enterobacterales,Ciprofloxacino (infecções não meníngeas),"0,25","0,5",">0,5",25,22-24,<22,
+Enterobacterales,Ciprofloxacino (meningite)2,"0,125",-,">0,125",NotaB,NotaB,NotaB,
+Enterobacterales,Pefloxacino (exclusivamente triagem),,,,"24A,B,,C",-,"<24A,B,C",
+Enterobacterales,"Delafloxacino, E. coli","0,125",-,">0,125",NotaD,NotaD,NotaD,
+Enterobacterales,Levofloxacino,"0,5",1,>1,23,19-22,<19,
+Enterobacterales,"Moxifloxacino, Enterobacterales exceto Morganella morganii, Proteus spp. e Serratia spp.3","0,25",-,">0,25",22,-,<22,
+Enterobacterales,Ácido nalidíxico (exclusivamente triagem),,,,,,,
+Enterobacterales,Norfloxacino (exclusivamente ITU não complicada),"0,5",-,">0,5",24,-,<24,
+Enterobacterales,Ofloxacino,"0,25","0,5",">0,5",24,22-23,<22,
+Enterobacterales,Aminoglicosídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Amicacina (infecções sistêmicas),(8)1,-,(>8)1,(18)A,-,(<18)A,"1/A. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/.
+2. Os pontos de corte não se aplicam a Plesiomonas shigeloides visto que aminoglicosídeos têm baixa atividade contra esta espécie."
+Enterobacterales,Amicacina (infecções sistêmicas com origem no trato urinário),8,-,>8,18,-,<18,
+Enterobacterales,Gentamicina (infecções sistêmicas),(2)1,-,(>2)1,(17)A,-,(<17)A,
+Enterobacterales,Gentamicina (infecções sistêmicas com origem no trato urinário),2,-,>2,17,-,<17,
+Enterobacterales,Netilmicina,EI,EI,EI,EI,EI,EI,
+Enterobacterales,Tobramicina (infecções sistêmicas),(2)1,-,(>2)1,(16)A,-,<(16)A,
+Enterobacterales,Tobramicina (infecções sistêmicas com origem no trato urinário),2,-,>2,16,-,<16,
+Enterobacterales,Macrolídeos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Azitromicina1,Nota1,Nota1,Nota1,"NotaA,B","NotaA,B","NotaA,B","1/A. A azitromicina tem sido utilizada no tratamento de infecções entéricas, principalmente por Salmonella Typhi e espécies de Shigella. Embora as distribuições de tipo selvagem variem um pouco, isolados com CIMs acima de 16 mg/L (diâmetros de halo de inibição <12 mm com disco de azitromicina 15 µg) provavelmente têm mecanismos de resistência à azitromicina.
+B. Ao ler os diâmetros dos halos de inibição de azitromicina, levar em consideração o crescimento que aparece como um halo interno tênue em alguns lotes de ágar Mueller-Hinton."
+Enterobacterales,Enterobacterales,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterobacterales,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterobacterales,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Doxiciclina,-,-,-,-,-,-,1. A tetraciclina tem sido utilizada para prever a sensibilidade à doxiciclina no tratamento de infecções por Yersinia enterocolitica (CIM de tetraciclina ≤ 4 mg/L para isolados selvagens). O diâmetro de halo correspondente para o disco de 30 µg de tetraciclina é ≥19 mm.
+Enterobacterales,"Eravaciclina, E. coli","0,5",-,">0,5",17,-,<17,"2. Para determinação da CIM de tigeciclina por microdiluição, o meio deve ser fresco, preparado no dia do uso."
+Enterobacterales,Minociclina,-,-,-,-,-,-,"3/A. Para outras Enterobacterales, a atividade de tigeciclina varia de insuficiente em Proteus spp., Morganella morganii e Providencia spp. para variável em outras espécies. Para mais informações, consultar http://www.eucast.org/eucastguidancedocuments/"
+Enterobacterales,Tetraciclina1,-,-,-,-,-,-,"B. Pontos de corte de diâmetro do halo de inibição validados apenas para E. coli. Para C. koseri, usar um método de determinação da CIM."
+Enterobacterales,"Tigeciclina, E. coli e C. koseri","0,52,3",-,">0,52,3","18A,B",-,"<18A,B",
+Enterobacterales,Agentes diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterobacterales,Cloranfenicol,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. A eficácia contra Enterobacterales é incerta. Os valores de corte de triagem podem ser utilizados ​​para distinguir isolados de tipo selvagem de isolados com resistência adquirida (CIM >16 mg/L; diâmetro do halo <17 mm para o disco de cloranfenicol 30 µg). Para o tratamento de meningites com cloranfenicol, consultar a tabela de dosagens."
+Enterobacterales,Colistina2,(2)3,-,(>2)3,NotaB,NotaB,NotaB,"2. A determinação da CIM de colistina ou polimixina B deve ser realizada por microdiluição em caldo. O controle de qualidade deve ser realizado tanto com uma cepa de CQ sensível (E. coli ATCC 25922 ou P. aeruginosa ATCC 27853) quanto com a E. coli NCTC 13846 resistente à colistina (mcr-1 positivo).
+3. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/."
+Enterobacterales,"Polimixina B2,3,8",(2)3,-,(>2)3,NotaB,NotaB,NotaB,"4. A diluição em ágar é o método de referência para testar fosfomicina. A CIM para fosfomicina deve ser determinada na presença de glicose-6-fosfato (25 mg/L no meio para os métodos de diluição em caldo e diluição em ágar). Seguir as instruções do fabricante caso seja utilizado um sistema comercial.
+5/E. Atualmente faltam evidências clínicas para apoiar pontos de corte clínicos.
+6/F. A realização do teste de sensibilidade antimicrobiana não é recomendada. Para obter informações sobre o uso de fosfomicina iv em terapia combinada em outras Enterobacterales, consultar https://www.eucast.org/eucastguidancedocuments/.
+7. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima."
+Enterobacterales,"Fosfomicina iv (infecções com origem no trato urinário), E. coli",84,-,>84,24D,-,<24D,
+Enterobacterales,"Fosfomicina iv (outras indicações), E. coli",Nota5,Nota5,Nota5,NotaE,NotaE,NotaE,
+Enterobacterales,"Fosfomicina iv, outras Enterobacterales",Nota6,Nota6,Nota6,NotaF,NotaF,NotaF,
+Enterobacterales,"Fosfomicina oral  (exclusivamente para E. coli, em ITU não complicada)",84,-,>84,24D,-,<24D,8. Pontos de corte propostos pelo BrCAST.
+Enterobacterales,"Nitrofurantoína (exclusivamente ITU não complicada), E. coli",64,-,>64,11,-,<11,"B. Utilizar um método de determinação da CIM (somente microdiluição em caldo).
+C. Os discos de fosfomicina de 200 µg devem conter 50 µg de glicose-6-fosfato.
+D. Ignorar colônias isoladas dentro do halo de inibição. Ver figuras abaixo."
+Enterobacterales,Sulfametoxazol-trimetoprima7,2,4,>4,14,11-13,<11,
+Enterobacterales,Enterobacterales,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterobacterales,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterobacterales,Exemplos de halos de inibição de Escherichia coli com fosfomicina.,,,,,,,
+Enterobacterales,a-c) Ignorar todas as colônias e ler a borda mais externa do halo.,,,,,,,
+Enterobacterales,d) Registrar como ausência de halo de inibição.,,,,,,,
+Pseudomonas,Piperacilina-tazobactam,"0,0011","0,002-161",>161,50,18-49,<18,"1. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada a 4 mg/L."
+Pseudomonas,Cefalosporinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pseudomonas,Cefepima,"0,001","0,002-8",>8,50,21-49,<21,"1/A. A adição de um inibidor de betalactamase não acrescenta benefício clínico. As betalactamases produzidas pelos microrganismos não modificam a cefalosporina ou são insuficientemente inibidas pelo inibidor.
+2. A determinação da CIM por microdiluição deve ser realizada com caldo Mueller-Hinton sem ferro e as instruções de leitura específicas devem ser seguidas. Para condições de teste e instruções de leitura, consultar http://www.eucast.org/eucastguidancedocuments/"
+Pseudomonas,Cefepima-enmetazobactam,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Pseudomonas,"Cefiderocol, P. aeruginosa",22,-,>22,22,-,<22,
+Pseudomonas,Ceftazidima,"0,001","0,002-8",>8,50,17-49,<17,"3. Para fins de testes de sensibilidade, a concentração de avibactam é fixada em 4 mg/L."
+Pseudomonas,"Ceftazidima-avibactam, P. aeruginosa",83,-,>83,17,-,<17,4. Ver tabela de dosagens para doses em diferentes indicações.
+Pseudomonas,"Ceftolozana-tazobactam4, P. aeruginosa",45,-,>45,23,-,<23,"5. Para fins de testes de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L."
+Pseudomonas,Carbapenêmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pseudomonas,Doripenem,"0,001","0,002-2",>2,50,22-49,<22,"1. Para fins de teste de sensibilidade, a concentração de relebactam é fixada em 4 mg/L."
+Pseudomonas,Ertapenem,-,-,-,-,-,-,"2. Para fins de teste de sensibilidade, a concentração de vaborbactam é fixada em 8 mg/L."
+Pseudomonas,Imipenem,"0,001","0,002-4",>4,50,20-49,<20,
+Pseudomonas,"Imipenem-relebactam, P. aeruginosa",21,-,>21,22,-,<22,
+Pseudomonas,"Meropenem (infecções não meníngeas), 
+P. aeruginosa",2,4-8,>8,20,14-19,<14,
+Pseudomonas,"Meropenem (infecções não meníngeas), Pseudomonas spp. excluindo P. aeruginosa",2,4-8,>8,24,18-23,<18,
+Pseudomonas,"Meropenem (meningite), P. aeruginosa",2,-,>2,20,-,<20,
+Pseudomonas,"Meropenem-vaborbactam, P. aeruginosa",82,-,>82,14,-,<14,
+Pseudomonas,Pseudomonas spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Pseudomonas,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Pseudomonas,Monobactâmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pseudomonas,Aztreonam,"0,001","0,002-16",>16,50,18-49,<18,
+Pseudomonas,Aztreonam-avibactam,EI,EI,EI,EI,EI,EI,
+Pseudomonas,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pseudomonas,Ciprofloxacino,"0,001","0,002-0,5",">0,5",50,26-49,<26,
+Pseudomonas,Delafloxacino,EI,EI,EI,EI,EI,EI,
+Pseudomonas,Levofloxacino,"0,001","0,002-2",>2,50,18-49,<18,
+Pseudomonas,Moxifloxacino,-,-,-,-,-,-,
+Pseudomonas,Norfloxacino (exclusivamente ITU não complicada),-,-,-,-,-,-,
+Pseudomonas,Ofloxacino,-,-,-,-,-,-,
+Pseudomonas,Aminoglicosídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pseudomonas,Amicacina (infecções sistêmicas),(16)1,-,(>16)1,(15)A,-,(<15)A,"1/A. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/."
+Pseudomonas,Amicacina (infecções sistêmicas com origem no trato urinário),16,-,>16,15,-,<15,
+Pseudomonas,Gentamicina (infecções sistêmicas),EI,EI,EI,EI,EI,IE,
+Pseudomonas,Gentamicina (infecções sistêmicas com origem no trato urinário),EI,EI,EI,EI,EI,IE,
+Pseudomonas,Netilmicina,EI,EI,EI,EI,EI,IE,
+Pseudomonas,Tobramicina (infecções sistêmicas),(2)1,-,(>2)1,(18)A,-,(<18)A,
+Pseudomonas,Tobramicina (infecções sistêmicas com origem no trato urinário),2,-,>2,18,-,<18,
+Pseudomonas,Pseudomonas spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Pseudomonas,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Pseudomonas,Agentes diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pseudomonas,Colistina1,(4)2,-,(>4)2,NotaA,NotaA,NotaA,"1. A determinação da CIM de colistina ou polimixina B deve ser realizada por microdiluição em caldo. O controle de qualidade deve ser realizado tanto com uma cepa de CQ sensível (E. coli ATCC 25922 ou P. aeruginosa ATCC 27853) quanto com a E. coli NCTC 13846 resistente à colistina (mcr-1 positivo).
+2. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/."
+Pseudomonas,"Polimixina B1,3",(2)2,-,(>2)2,NotaA,NotaA,NotaA,3. Pontos de corte preconizados pelo BrCAST.
+Pseudomonas,Fosfomicina iv,Nota4,Nota4,Nota4,NotaB,NotaB,NotaB,"4/B. A realização do teste de sensibilidade antimicrobiana não é recomendada. Para informação sobre o uso de fosfomicina iv em terapia combinada ver https://www.eucast.org/eucastguidancedocuments/.
+
+A. Utilizar um método para a determinação da CIM (somente microdiluição em caldo)."
+Pseudomonas,Fosfomicina oral,-,-,-,-,-,-,
+S.maltophilia,Ceftazidima,-,-,-,-,-,-,"1. A determinação da CIM por microdiluição deve ser realizada com caldo Mueller-Hinton sem ferro e as instruções de leitura específicas devem ser seguidas. Para condições de teste e instruções de leitura, consultar http://www.eucast.org/eucastguidancedocuments/.
+2/A. A atividade in vitro do cefiderocol contra Stenotrophomonas maltophilia é comparável à atividade do agente contra Enterobacterales e também há dados em animais que sugerem eficácia. No entanto, não há dados clínicos suficientes para determinar um ponto de corte clínico. Isolados com valores de CIM ≤ 0,5 mg/L (diâmetro do halo ≥ 28 mm) são, em sua maioria, desprovidos de mecanismos de resistência. Isolados com CIMs de 1-2 mg/L apresentam mecanismos de resistência adquiridos que podem resultar em resposta clínica inadequada. Isolados com valores de CIM > 2 mg/L (diâmetro da halo < 22 mm) provavelmente serão resistentes."
+S.maltophilia,Cefepima,-,-,-,-,-,-,
+S.maltophilia,Cefiderocol1,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,
+S.maltophilia,Monobactâmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S.maltophilia,Aztreonam,-,-,-,-,-,-,
+S.maltophilia,Aztreonam-avibactam,EI,EI,EI,EI,EI,EI,
+S.maltophilia,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S.maltophilia,Ciprofloxacino,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+S.maltophilia,Levofloxacino,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+S.maltophilia,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S.maltophilia,Minociclina,"Nota1,2","Nota1,2","Nota1,2",NotaA,NotaA,NotaA,
+S.maltophilia,Tigeciclina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+S.maltophilia,Stenotrophomonas maltophilia,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+S.maltophilia,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+S.maltophilia,Agentes diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S.maltophilia,Sulfametoxazol-trimetoprima1,"0,001","0,002-2",>2,50A,16-49,"<16A,B",1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte estão expressos como concentração de trimetoprima.
+S.maltophilia,Exemplos de halos de inibição de Stenotrophomonas maltophilia com sulfametoxazol-trimetoprima.,,,,,,,
+S.maltophilia,a-c) Um halo externo pode ser visualizado. Ler a borda externa do halo de inibição e interpretar conforme os pontos de cortes.,,,,,,,
+S.maltophilia,d) Crescimento até a borda do disco e sem sinal de halo de inibição. Reportar como resistente.,,,,,,,
+Acinetobacter,Ampicilina-sulbactam,EI,EI,EI,EI,EI,EI,"1. O teste de sensibilidade de Acinetobacter spp. às penicilinas não é confiável. Na maioria dos casos, Acinetobacter spp. são resistentes às penicilinas."
+Acinetobacter,Piperacilina-tazobactam,EI,EI,EI,EI,EI,EI,
+Acinetobacter,Cefalosporinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Cefepima,-,-,-,-,-,-,"1. A determinação da CIM por microdiluição deve ser realizada com caldo Mueller-Hinton sem ferro e as instruções de leitura específicas devem ser seguidas. Para condições de teste e instruções de leitura, consultar http://www.eucast.org/eucastguidancedocuments/.
+2/A. A atividade in vitro do cefiderocol contra Acinetobacter spp. é comparável à atividade do agente contra Enterobacterales e também há dados em animais que sugerem eficácia. No entanto, não há dados clínicos suficientes para determinar um ponto de corte clínico. Isolados com valores de CIM ≤ 0,5 mg/L (diâmetro do halo ≥ 21 mm) são, em sua maioria, desprovidos de mecanismos de resistência. Isolados com CIMs de 1-2 mg/L apresentam mecanismos de resistência adquiridos que podem resultar em resposta clínica inadequada. Isolados com valores de CIM > 2 mg/L (diâmetro do halo < 17 mm) provavelmente serão resistentes."
+Acinetobacter,Cefepima-enmetazobactam,-,-,-,-,-,-,
+Acinetobacter,Cefiderocol1,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,
+Acinetobacter,Ceftazidima,-,-,-,-,-,-,
+Acinetobacter,Ceftazidima-avibactam,-,-,-,-,-,-,
+Acinetobacter,Ceftolozana-tazobactam,-,-,-,-,-,-,
+Acinetobacter,Carbapenêmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Doripenem,0.001,"0,002-2",>2,50,22-49,<22,"1/A. As betalactamases produzidas por esses microrganismos não modificam o carbapenêmico ou são insuficientemente inibidas pelo inibidor. Portanto, a adição do inibidor de betalactamases não resulta em benefício clínico."
+Acinetobacter,Ertapenem,-,-,-,-,-,-,
+Acinetobacter,Imipenem,2,4,>4,24,21-23,<21,
+Acinetobacter,Imipenem-relebactam1,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Acinetobacter,Meropenem (infecções não meníngeas),2,4-8,>8,21,15-20,<15,
+Acinetobacter,Meropenem (meningite),2,-,>2,21,-,<21,
+Acinetobacter,Meropenem-vaborbactam1,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Acinetobacter,Acinetobacter spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Acinetobacter,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Acinetobacter,Monobactâmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Aztreonam,-,-,-,-,-,-,
+Acinetobacter,Aztreonam-avibactam,-,-,-,-,-,-,
+Acinetobacter,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Ciprofloxacino,"0,001","0,002-1",>1,50,21-49,<21,
+Acinetobacter,Delafloxacino,EI,EI,EI,EI,EI,EI,
+Acinetobacter,Levofloxacino,"0,5",1,>1,23,20-22,<20,
+Acinetobacter,Moxifloxacino,-,-,-,-,-,-,
+Acinetobacter,Norfloxacino (exclusivamente ITU não complicada),-,-,-,-,-,-,
+Acinetobacter,Ofloxacino,-,-,-,-,-,-,
+Acinetobacter,Aminoglicosídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Amicacina (infecções sistêmicas),(8)1,-,(>8)1,(19)A,-,(<19)A,"1/A. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/."
+Acinetobacter,Amicacina (infecções sistêmicas com origem no trato urinário),8,-,>8,19,-,<19,
+Acinetobacter,Gentamicina (infecções sistêmicas),(4)1,-,(>4)1,(17)A,-,(<17)A,
+Acinetobacter,Gentamicina (infecções sistêmicas com origem no trato urinário),4,-,>4,17,-,<17,
+Acinetobacter,Netilmicina,EI,EI,EI,EI,EI,EI,
+Acinetobacter,Tobramicina (infecções sistêmicas),(4)1,-,(>4)1,(17)A,-,(<17)A,
+Acinetobacter,Tobramicina (infecções sistêmicas com origem no trato urinário),4,-,>4,17,-,<17,
+Acinetobacter,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Doxiciclina,-,-,-,-,-,-,1. A minociclina tem sido discutida como terapia alternativa em infecções por Acinetobacter. O “EI” na tabela diz respeito apenas à terapia intravenosa. A administração oral não atingirá exposição suficiente.
+Acinetobacter,Minociclina,EI1,EI1,EI1,EI,EI,EI,
+Acinetobacter,Tetraciclina,-,-,-,-,-,-,
+Acinetobacter,Tigeciclina,EI,EI,EI,EI,EI,EI,
+Acinetobacter,Acinetobacter spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Acinetobacter,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Acinetobacter,Agentes diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Acinetobacter,Colistina1,(2)2,-,(>2)2,NotaA,NotaA,NotaA,"1. A determinação da CIM de colistina ou polimixina B deve ser realizada por microdiluição em caldo. O controle de qualidade deve ser realizado tanto com uma cepa de CQ sensível (E. coli ATCC 25922 ou P. aeruginosa ATCC 27853) quanto com a E. coli NCTC 13846 resistente à colistina (mcr-1 positivo).
+2. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/."
+Acinetobacter,"Polimixina B1,3",(2)2,-,(>2)2,NotaA,NotaA,NotaA,3. Pontos de corte preconizados pelo BrCAST.
+Acinetobacter,Sulfametoxazol-trimetoprima4,2,4,>4,14,11-13,<11,4. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte estão expressos como concentração de trimetoprima.
+Staphylococcus,"Benzilpenicilina, S. aureus","0,1251",-,">0,1251","26A,B",-,"<26A,B","1/A. A maioria dos S. aureus são produtores de penicilinase e alguns são resistentes à meticilina (oxacilina). Qualquer um desses mecanismos os torna resistentes à benzilpenicilina, fenoximetilpenicilina, ampicilina, amoxicilina, piperacilina e ticarcilina. Isolados sensíveis à benzilpenicilina e à cefoxitina podem ser reportados como sensíveis a todas as penicilinas. Isolados  resistentes à benzilpenicilina, mas sensíveis à cefoxitina, são sensíveis às combinações de inibidores de β-lactamase, isoxazolilpenicilinas (oxacilina, cloxacilina, dicloxacilina e flucloxacilina) e à nafcilina. Para agentes administrados por via oral, deve-se ter cuidado para obter exposição suficiente no local da infecção. Isolados resistentes à cefoxitina são resistentes a todas as penicilinas.
+2/C. A maioria dos estafilococos são produtores de penicilinase e alguns são resistentes à meticilina. Qualquer um dos mecanismos os torna resistentes à benzilpenicilina, fenoximetilpenicilina, ampicilina, amoxicilina, piperacilina e ticarcilina. Nenhum método atualmente disponível pode detectar com segurança a produção de penicilinase em todas as espécies de estafilococos, mas a resistência à meticilina pode ser detectada com cefoxitina, conforme descrito.
+3/D. S. saprophyticus sensíveis à ampicilina são gene mecA-negativo e sensíveis à ampicilina, amoxicilina e piperacilina (com ou sem inibidor de β-lactamase).
+4. S. aureus, S. lugdunensis e S. saprophyticus com CIM de oxacilina >2 mg/L são, em sua maioria, resistentes à meticilina pela presença do gene mecA ou gene mecC. Ocasionalmente, valores de CIM de oxacilina são altos em  S. aureus na ausência de resistência mediada por gene mec. Essas cepas são conhecidas como BORSA (Borderline Oxacillin-Resistant S. aureus). O BrCAST-EUCAST não recomenda uma triagem sistemática para BORSA. Para estafilococos coagulase negativo, exceto S. saprophyticus e S. lugdunensis, a CIM de oxacilina em cepas resistentes à meticilina é >0,25 mg/L."
+Staphylococcus,"Benzilpenicilina, S. lugdunensis","0,125",-,">0,125",26,-,<26,
+Staphylococcus,"Benzilpenicilina, outros estafilococos",Nota2,Nota2,Nota2,NotaC,NotaC,NotaC,
+Staphylococcus,"Ampicilina, S. saprophyticus","Nota2,3","Nota2,3","Nota2,3","18C,D",-,"<18C,D",
+Staphylococcus,Ampicilina-sulbactam,"Nota1,2,3","Nota1,2,3","Nota1,2,3","NotaA,C,D","NotaA,C,D","NotaA,C,D",
+Staphylococcus,Amoxicilina,"Nota1,2,3","Nota1,2,3","Nota1,2,3","NotaA,C,D","NotaA,C,D","NotaA,C,D",
+Staphylococcus,Amoxicilina-ácido clavulânico,"Nota1,2,3","Nota1,2,3","Nota1,2,3","NotaA,C,D","NotaA,C,D","NotaA,C,D",
+Staphylococcus,Piperacilina-tazobactam,"Nota1,2,3","Nota1,2,3","Nota1,2,3","NotaA,C,D","NotaA,C,D","NotaA,C,D",
+Staphylococcus,"Fenoximetilpenicilina, S. aureus",Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,"Fenoximetilpenicilina, estafilococos coagulase negativos",-2,-2,-2,NotaC,NotaC,NotaC,
+Staphylococcus,"Oxacilina (exclusivamente triagem), 
+S. pseudintermedius, S. intermedius, S. schleiferi e S. coagulans",,,,20E,-,<20E,
+Staphylococcus,"Oxacilina4, Staphylococcus spp., (exceto S. pseudintermedius, S. intermedius, S. schleiferi e S. coagulans), testar cefoxitina","Nota1,4","Nota1,4","Nota1,4",NotaA,NotaA,NotaA,"B. Para detecção de isolados de S. aureus produtores de penicilinase, o método de disco-difusão é mais confiável do que a determinação da CIM, desde que o diâmetro do halo seja medido E as bordas do halo para isolados com diâmetro ≥26 mm sejam cuidadosamente avaliadas (ver figuras abaixo). Examinar as bordas do halo de inibição com luz transmitida (placa contra a luz). Se o diâmetro do halo de inibição for <26mm, reportar resistente. Se o diâmetro for ≥26mm E a borda dos halo bem definida  (sem redução do crescimento em direção à borda do halo, como uma ""falésia""), reportar como resistente. Se as bordas do halo forem mal definidas (redução do crescimento em direção à borda do halo, como uma ""praia"") reportar sensível, mas se duvidoso reportar resistente. Testes de β-lactamase com cefalosporina cromogênica não são confiáveis para detectar penicilinase estafilocócica.
+E. Para triagem de resistência à meticilina (oxacilina) em S. pseudintermedius, S. intermedius, S. schleiferi e S. coagulans."
+Staphylococcus,Staphylococcus spp.,,,,,,,
+Staphylococcus,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Staphylococcus,Cefalosporinas1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,Cefaclor2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. A sensibilidade às cefalosporinas em estafilococos é inferida pela sensibilidade à cefoxitina, exceto para ceftazidima, ceftazidima-avibactam e ceftolozana-tazobactam, que não têm pontos de corte definidos e não devem ser utilizadas para tratamento de infecções estafilocócicas. Para agentes administrados por via oral, deve-se ter cuidado para obter exposição suficiente no local da infecção. Se forem relatados cefotaxima e ceftriaxona para estafilococos sensíveis à meticilina (oxacilina), estes devem ser relatados como “Sensível, aumentando exposição” (I). Alguns S. aureus resistentes à meticilina (oxacilina) são sensíveis à ceftarolina, Ver Notas 7/D e 7/E. 
+2. Ver tabela de dosagens.
+3. A adição de um inibidor de betalactamase não acrescenta benefício clínico.
+4. S. aureus e S. lugdunensis com valores de CIM para cefoxitina >4 mg/L e S. saprophyticus com valores de CIM para cefoxitina  >8 mg/L são resistentes à meticilina (oxacilina) principalmente devido à presença do gene mecA ou mecC. Testes de disco-difusão são confiáveis para predizer resistência à meticilina (oxacilina).
+5.  Para estafilococos que não sejam S. aureus, S. lugdunensis ou S. saprohyticus, a CIM de cefoxitina é menos preditiva de resistência à meticilina (oxacilina) do que o teste de disco-difusão.
+6/C. Em S. pseudintermedius, S. intermedius, S. schleiferi e S. coagulans, o disco de cefoxitina é menos preditivo para a detecção de resistência à meticilina do que em outros estafilococos. Utilizar o disco de oxacilina 1 µg com pontos de corte de diâmetro de halo S ≥20, R < 20 mm.
+7/D. Isolados sensíveis à meticilina (oxacilina) podem ser reportados como sensíveis à ceftarolina sem testes adicionais.
+8/E. Isolados resistentes são raros.
+
+B. Caso um estafilococo coagulase negativo não seja identificado em nível de espécie, utilizar pontos de corte para diâmetro de halo S≥ 25, R<25mm, com AIT de 22-24mm. Para isolados com resultado dentro da AIT: identificar a espécie, realizar PCR para mecA/mecC ou reportar resistente."
+Staphylococcus,Cefadroxila,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefalexina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefazolina2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefepima2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefepima-enmetazobactam3,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefotaxima2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefoxitina (exclusivamente triagem) S. aureus e estafilococos coagulase negativos exceto S. epidermidis e S. lugdunensis,"Nota4,5","Nota4,5","Nota4,5","22A,B",-,"<22A,B",
+Staphylococcus,"Cefoxitina (exclusivamente triagem), S. epidermidis e S. lugdunensis","Nota4,5","Nota4,5","Nota4,5","27A,B",-,"<27A,B",
+Staphylococcus,"Cefoxitina (exclusivamente triagem),  S. pseudintermedius, S. intermedius, S. schleiferi e S. coagulans",Nota6,Nota6,Nota6,NotaC,NotaC,NotaC,
+Staphylococcus,"Cefoxitina (exclusivamente triagem), Staphylococcus coagulase negativo sem identificação da espécie",-,-,-,25B,-,<25B,
+Staphylococcus,"Ceftarolina (outras indicações excetuando pneumonia), S. aureus",17,27,">27,8",20D,17-19D,"<17D,E",
+Staphylococcus,"Ceftarolina (pneumonia), S. aureus",17,-,>17,20D,-,<20D,
+Staphylococcus,Ceftriaxona2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefuroxima iv2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Cefuroxima oral,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Staphylococcus spp.,,,,,,,
+Staphylococcus,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Staphylococcus,Carbapenêmicos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,Doripenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. A sensibilidade dos estafilococos aos carbapenêmicos é inferida a partir da sensibilidade à cefoxitina.
+2. A adição de um inibidor de betalactamase não acrescenta benefício clínico."
+Staphylococcus,Ertapenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Imipenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Imipenem-relebactam2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Meropenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Meropenem-vaborbactam2,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Staphylococcus,Fluoroquinolonas1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,"Ciprofloxacino, S. aureus","(0,001)2","(0,002-2)2",(>2)2,"(50)A,B","(17-49)A,B","(<17)A,B","1. Para pontos de corte para outras fluoroquinolonas (por exemplo, pefloxacino e enoxacino), consultar os pontos de corte definidos pelos comitês nacionais de pontos de corte.
+2/A. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/.
+3/E. Pontos de corte de ofloxacino para Staphylococcus spp. foram removidos, pois nas infecções sistêmicas por estafilococos o agente é inferior à outras fluoroquinolonas. Para o uso tópico de ofloxacino, consultar as tabelas de agentes tópicos.
+B. O teste de disco-difusão com norfloxacino pode ser utilizado para triagem de resistência às fluoroquinolonas. Ver nota D.
+C. O teste de disco-difusão aguarda ação da indústria farmacêutica responsável. 
+D. Os isolados categorizados como negativos no teste de triagem com norfloxacino (diâmetro do halo ≥17 mm) podem ser reportados como sensíveis ao moxifloxacino e ""sensível, aumentando exposição"" (I) ao levofloxacino. Para ciprofloxacino, o isolado é desprovido de mecanismos de resistência fenotipicamente detectáveis e pode ser utilizado em alta exposição em terapia combinada (ver Nota 2/A). Os isolados triados como positivos (diâmetro do halo <17 mm) devem ser testados quanto à sensibilidade aos antimicrobianos específicos ou ser reportados como resistentes."
+Staphylococcus,"Ciprofloxacino, estafilococo coagulase negativo","(0,001)2","(0,002-2)2",(>2)2,"(50)A,B","(22-49)A,B","(<22)A,B",
+Staphylococcus,"Delafloxacino (pneumonia comunitária),
+S. aureus","0,016",-,">0,016",NotaC,NotaC,NotaC,
+Staphylococcus,"Delafloxacino (infecções da pele e tecidos moles), S. aureus","0,25",-,">0,25",NotaC,NotaC,NotaC,
+Staphylococcus,"Levofloxacino, S. aureus","0,001","0,002-1",>1,50B,22-49B,<22B,
+Staphylococcus,"Levofloxacino, estafilococo coagulase negativo","0,001","0,002-1",>1,50B,24-49B,<24B,
+Staphylococcus,"Moxifloxacino, S. aureus","0,25",-,">0,25",25B,-,<25B,
+Staphylococcus,"Moxifloxacino, estafilococo coagulase negativo","0,25",-,">0,25",28B,-,<28B,
+Staphylococcus,Norfloxacino (exclusivamente triagem),,,,17D,-,<17D,
+Staphylococcus,Ofloxacino,Nota3,Nota3,Nota3,NotaE,NotaE,NotaE,
+Staphylococcus,Aminogicosídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,"Amicacina, S. aureus",(16)1,-,(>16)1,(15)A,-,(<15)A,"1/A. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/."
+Staphylococcus,"Amicacina, estafilococo coagulase negativo",(16)1,-,(>16)1,(15)A,-,(<15)A,
+Staphylococcus,"Gentamicina, S. aureus",(2)1,-,(>2)1,(18)A,-,(<18)A,
+Staphylococcus,"Gentamicina, estafilococo coagulase negativo",(2)1,-,(>2)1,(22)A,-,(<22)A,
+Staphylococcus,Netilmicina,EI,EI,EI,EI,EI,EI,
+Staphylococcus,"Tobramicina, S. aureus",(2)1,-,(>2)1,(18)A,-,(<18)A,
+Staphylococcus,"Tobramicina, estafilococo coagulase negativo",(2)1,-,(>2)1,(20)A,-,(<20)A,
+Staphylococcus,Staphylococcus spp.,,,,,,,
+Staphylococcus,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Staphylococcus,Glicopeptídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,"Teicoplanina2, S. aureus",2,-,>2,NotaA,NotaA,NotaA,"1. A CIM de glicopeptídeos é dependente do método e deve ser determinada por microdiluição em caldo (referência ISO 20776-1). S. aureus com CIM de 2 mg/L para vancomicina estão no limite da distribuição da CIM do tipo selvagem e pode haver diminuição da resposta clínica.
+2. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade aos antimicrobianos em isolados resistentes devem ser confirmados em centro de referência."
+Staphylococcus,"Teicoplanina2, estafilococo coagulase negativo",4,-,>4,NotaA,NotaA,NotaA,
+Staphylococcus,"Vancomicina2, S. aureus",2,-,>2,NotaA,NotaA,NotaA,
+Staphylococcus,"Vancomicina2, estafilococo coagulase
+ negativo",4,-,>4,NotaA,NotaA,NotaA,A. O método de disco-difusão não é confiável e não distingue isolados selvagens daqueles com resistência não mediada pelo gene vanA.
+Staphylococcus,Macrolídeos e lincosamidas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,Azitromicina,21,-,>21,NotaA,NotaA,NotaA,1/A. A eritromicina pode ser utilizada como triagem para determinar a resistência aos macrolídeos em estafilococos. Isolados categorizados como sensíveis podem ser reportados como sensíveis à azitromicina e à claritromicina. Isolados categorizados como positivos na triagem devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+Staphylococcus,Claritromicina,11,-,>11,NotaA,NotaA,NotaA,"2. A resistência induzível à clindamicina pode ser detectada pelo antagonismo da atividade da clindamicina por agente macrolídeo. Se antagonismo não for detectado, reportar como testado de acordo com os pontos de corte clínicos. Se detectado, reportar como resistente e considerar a inclusão do comentário: “A clindamicina ainda pode ser utilizada para tratamento de curta duração ou tratamento de infecções menos graves de pele e tecidos moles porque é improvável haver desenvolvimento de resistência plena durante tais tratamentos”."
+Staphylococcus,Eritromicina,11,-,>11,21A,-,<21A,"B. Posicionar os discos de eritromicina e clindamicina a uma distância de 12-20 mm (borda-borda) e observar a ocorrência de antagonismo (halo de inibição em forma de ""D"")."
+Staphylococcus,Clindamicina2,"0,25",-,">0,25",22B,-,<22B,
+Staphylococcus,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,Doxiciclina,11,-,>11,NotaA,NotaA,NotaA,"1/A. A tetraciclina pode ser usada para triagem de resistência às demais tetraciclinas. Isolados categorizados como sensíveis podem ser reportados como sensíveis à doxiciclina e minociclina. Isolados categorizados como resistentes devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+2. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+3. Para determinação da CIM de tigeciclina por microdiluição, o meio deve ser preparado fresco no dia do uso.
+
+B. Para isolados MRSA classificados como sensíveis por disco-difusão, o resultado deve ser confirmado por determinação da CIM."
+Staphylococcus,"Eravaciclina, S. aureus","0,25",-,">0,25",20B,-,<20B,
+Staphylococcus,Minociclina,"0,51",-,">0,51",23A,-,<23A,
+Staphylococcus,Tetraciclina,11,-,>11,22A,-,<22A,
+Staphylococcus,Tigeciclina 2,"0,53",-,">0,53",19,-,<19,
+Staphylococcus,Staphylococcus spp.,,,,,,,
+Staphylococcus,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Staphylococcus,Oxazolidinonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,Linezolida,4,-,>4,21,-,<21,1/A. Isolados sensíveis à linezolida podem ser considerados sensíveis à tedizolida.
+Staphylococcus,Tedizolida,"0,51",-,">0,5",20A,-,<20,
+Staphylococcus,Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Staphylococcus,Ácido fusídico,1,-,>1,24,-,<24,"1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+2. Para determinação da CIM de daptomicina o meio deve ser suplementado com Ca++ para uma concentração final de 50 mg/L para o método da microdiluição em caldo. A diluição em ágar não está validada. Seguir as instruções do fabricante caso utilize um sistema comercial.
+3/B. A realização do teste de sensibilidade antimicrobiana não é recomendada. Para obter informações sobre o uso de fosfomicina iv em terapia combinada consultar https://www.eucast.org/eucastguidancedocuments/.
+4. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+
+A. Utilizar método de determinação da CIM."
+Staphylococcus,Cloranfenicol,EI,EI,EI,EI,EI,EI,
+Staphylococcus,Daptomicina1,12,-,>12,NotaA,NotaA,NotaA,
+Staphylococcus,Fosfomicina IV,Nota3,Nota3,Nota3,NotaB,NotaB,NotaB,
+Staphylococcus,Fosfomicina oral,-,-,-,-,-,-,
+Staphylococcus,"Lefamulina, S. aureus","0,25",-,">0,25",23,-,<23,
+Staphylococcus,"Nitrofurantoína (exclusivamente ITU não complicada), S. saprophyticus",64,-,>64,13,-,<13,
+Staphylococcus,"Rifampicina, S. aureus","0,06",-,">0,06",26,-,<26,
+Staphylococcus,"Rifampicina, Staphylococcus coagulase negativo","0,06",-,">0,06",30,-,<30,
+Staphylococcus,Sulfametoxazol-trimetoprima4,2,4,>4,17,14-16,<14,
+Staphylococcus,Exemplos de halos de inibição para Staphylococcus aureus com benzilpenicilina.,,,,,,,
+Staphylococcus,"a) Bordas do halo mal definidas (redução do crescimento em direção à borda do halo, como uma ""praia"") e diâmetro do halo de inibição ≥ 26 mm. Reportar como sensível.",,,,,,,
+Staphylococcus,"b) Bordas do halo bem definidas (sem redução do crescimento em direção à borda do halo, como uma ""falésia"") e diâmetro do halo de inibição ≥ 26 mm. Reportar como resistente.",,,,,,,
+Enterococcus,Benzilpenicilina,-,-,-,-,-,-,"1/B. A sensibilidade pode ser inferida a partir da ampicilina.
+2. A adição de um inibidor de betalactamase não acrescenta benefício clínico. Enterococos produtores de betalactamase são extremamente raros.
+3/C. Isolados sensíveis à ampicilina não têm mecanismos de resistência fenotipicamente detectáveis ​​e os agentes especificados podem ser utilizados ​​em alta exposição em terapia combinada (ver Nota 4/D). Isolados resistentes à ampicilina podem ser reportados como resistentes.
+4/D. Para obter informações sobre como utilizar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/.
+5. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L.
+
+A. Para E. faecalis resistentes à ampicilina por disco-difusão confirmar com método de determinação da CIM."
+Enterococcus,Ampicilina iv,4,-,>4,10A,8-9A,<8A,
+Enterococcus,Ampicilina-sulbactam iv2,Nota1,Nota1,Nota1,NotaB,NotaB,NotaB,
+Enterococcus,Amoxicilina iv,41,-,>41,NotaB,NotaB,NotaB,
+Enterococcus,Amoxicilina oral (exclusivamente ITU não complicada),41,-,>41,NotaB,NotaB,NotaB,
+Enterococcus,"Amoxicilina oral (outras indicações),
+E. faecalis","(0,001)3,4","(0,002-4)3,4","(>4)3,4","NotaC,D","NotaC,D","NotaC,D",
+Enterococcus,Amoxicilina-clavulanato iv2,Nota1,Nota1,Nota1,NotaB,NotaB,NotaB,
+Enterococcus,Amoxicilina-clavulanato oral2 (exclusivamente ITU não complicada),Nota1,Nota1,Nota1,NotaB,NotaB,NotaB,
+Enterococcus,"Amoxicilina-clavulanato oral2 (outras indicações), E. faecalis","Nota3,4","Nota3,4","Nota3,4","NotaC,D","NotaC,D","NotaC,D",
+Enterococcus,"Piperacilina, E. faecalis","0,001","0,002-16",>16,50,18-49,<18,
+Enterococcus,"Piperacilina-tazobactam2, E. faecalis","0,0015","0,001-165",>165,50,18-49,<18,
+Enterococcus,Carbapenêmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,Doripenem,-,-,-,-,-,-,1/A. A adição do inibidor de betalactamase não resulta em benefício clínico.
+Enterococcus,Ertapenem,-,-,-,-,-,-,
+Enterococcus,"Imipenem, E. faecalis","0,001","0,002-4",>4,50,21-49,<21,
+Enterococcus,Imipenem-relebactam,-,-,-,-,-,-,
+Enterococcus,Meropenem,-,-,-,-,-,-,
+Enterococcus,Meropenem-vaborbactam,-,-,-,-,-,-,
+Enterococcus,Enterococcus spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterococcus,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterococcus,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,"Ciprofloxacino, exclusivamente em infecção do trato urinário (ITU) não complicada",4,-,>4,15A,-,<15A,"1/B. O moxifloxacino tem sido utilizado na transição para tratamento oral de endocardite causada por Enterococcus faecalis. Não há pontos de corte clínicos para Enterococcus spp., porém a resistência adquirida deve ser excluída (isolados com CIM >1 mg/L). O teste de triagem pelo método de disco-difusão com norfloxacino pode ser utilizado para excluir mecanismos de resistência. Se o teste de triagem for negativo (diâmetro do halo ≥ 12 mm), o isolado não deve ser reportado como sensível ao moxifloxacino. Inserir nota: “Este isolado é desprovido de mecanismos de resistência às fluoroquinolonas, incluindo moxifloxacino”. Se o teste for positivo (diâmetro do halo < 12 mm), reportar: "" Este isolado expressa mecanismos de resistência às fluoroquinolonas. O uso de moxifloxacino é desaconselhável.""
+
+A. O teste de disco-difusão com norfloxacino pode ser utilizado como triagem para resistência às fluoroquinolonas. Ver Nota C.
+C. A sensibilidade ao ciprofloxacino e ao levofloxacino pode ser inferida a partir do teste de triagem com norfloxacino pelo método de disco-difusão. Para moxifloxacino, ver Nota 1/B."
+Enterococcus,Delafloxacino,EI,EI,EI,EI,EI,EI,
+Enterococcus,Levofloxacino (exclusivamente ITU não complicada),4,-,>4,15A,-,<15A,
+Enterococcus,Moxifloxacino,Nota1,Nota1,Nota1,NotaB,NotaB,NotaB,
+Enterococcus,"Norfloxacino
+(exclusivamente triagem)",,,,12C,-,<12C,
+Enterococcus,Ofloxacino,-,-,-,-,-,-,
+Enterococcus,Aminoglicosídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,Amicacina,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,"1. Enterococcus spp. são resistentes aos aminoglicosídeos quando utilizados em monoterapia. Entretanto, o sinergismo com penicilinas ou glicopeptídeos é provável se o isolado não expressar enzimas modificadoras de aminoglicosídeos adquiridas."
+Enterococcus,Gentamicina (teste para enzimas modificadoras de aminoglicosídeos adquiridas - resistência de alto nível),Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,2/A. A gentamicina pode ser utilizada para triagem da expressão de enzimas modificadoras de aminoglicosídeos (resistência de alto nível aos aminoglicosídeos).
+Enterococcus,Netilmicina,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,"Teste Negativo: Isolados com CIM de gentamicina  ≤128 mg/L ou diâmetro do halo de inibição ≥8 mm. O isolado tem perfil selvagem para gentamicina (não expressa enzimas modificadoras de aminoglicosídeos). Portanto, é esperado sinergismo se o isolado for sensível à penicilina ou glicopeptídeos. Este pode não ser o caso para outros aminoglicosídeos. 
+
+Teste Positivo: Isolados com CIM de gentamicina >128 mg/L ou com diâmetro do halo de inibição <8 mm. O isolado expressa  enzimas modificadoras de aminoglicosídeos. As combinações de penicilinas ou glicopeptídeos com aminoglicosídeos não terão efeito sinérgico. Nesse caso a estreptomicina pode ser ainda ativa e deve ser testada separadamente. (ver Nota 3/B)."
+Enterococcus,Estreptomicina (teste para enzimas modificadoras de aminoglicosídeos adquiridas - resistência de alto nível),Nota3,Nota3,Nota3,NotaB,NotaB,NotaB,
+Enterococcus,Tobramicina,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,
+Enterococcus,Enterococcus spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterococcus,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterococcus,Glicopeptídeos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,Teicoplanina,2,-,>2,16,-,<16,"1/A. A resistência à vancomicina é o fenótipo esperado para E. casseliflavus e E. gallinarum e, portanto, o teste de sensibilidade não deve ser realizado.
+
+A. E. faecalis e E. faecium sensíveis à vancomicina apresentam halos de inibição com bordas bem definidas e não apresentam colônias dentro do halo de inibição. Examinar as bordas dos halos de inibição com luz transmitida (placa erguida contra a luz). Suspeitar de resistência quando as bordas forem mal definidas (irregulares ou difusas) ou quando houver crescimento de colônias dentro do halo de inibição. Resultados duvidosos devem ser confirmados com PCR para detecção de genes van, mesmo que o diâmetro do halo seja  ≥12 mm (ver figuras abaixo). Os isolados não podem ser reportados como sensíveis antes de 24h de incubação."
+Enterococcus,"Vancomicina, E. faecalis e E. faecium",4,-,>4,12A,-,<12A,
+Enterococcus,"Vancomicina, E. casseliflavus e E. gallinarum",-,-,-,-,-,-,
+Enterococcus,"Vancomicina, outros Enterococos",4,-,>4,15,-,<15,
+Enterococcus,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,Doxiciclina,-,-,-,-,-,-,1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+Enterococcus,Eravaciclina,"0,25",-,">0,25",22,-,<22,
+Enterococcus,Minociclina,-,-,-,-,-,-,"2.Para determinação da CIM de tigeciclina por microdiluição, o meio deve ser preparado fresco, no dia do uso."
+Enterococcus,Tetraciclina,-,-,-,-,-,-,
+Enterococcus,Tigeciclina1,"0,52",-,">0,52",20,-,<20,
+Enterococcus,Oxazolidinonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,Linezolida,4,-,>4,20,-,<20,
+Enterococcus,Tedizolida,EI,EI,EI,EI,EI,EI,
+Enterococcus,Enterococcus spp.,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+Enterococcus,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Enterococcus,Agentes diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Enterococcus,Daptomicina1,EI,EI,EI,EI,EI,EI,"1. Para mais informações veja http://www.eucast.org/eucastguidancedocuments/.
+2/A. A realização do teste de sensibilidade antimicrobiana não é recomendada. Para obter informações sobre o uso de fosfomicina iv em terapia combinada consultar https://www.eucast.org/eucastguidancedocuments/.
+3/B. A lefamulina tem atividade insuficiente contra E. faecalis. Para E. faecium, o ECOFF de 0,5 mg/L pode ser utilizado para distinguir os isolados do tipo selvagem dos não selvagens.
+4/C. A atividade do sulfametoxazol-trimetoprima contra enterococos é incerta, não sendo possível prever o desfecho clínico. Isolados com CIMs >1 mg/L provavelmente têm mecanismos de resistência contra trimetoprima e sulfametoxazol-trimetoprima. Para E. faecalis e E. faecium isto corresponde a um diâmetro de halo de <23 mm para  sulfametoxazol-trimetoprima.
+5. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM são expressos como concentração de trimetoprima."
+Enterococcus,Fosfomicina IV,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,
+Enterococcus,Fosfomicina oral,-,-,-,-,-,-,
+Enterococcus,Lefamulina,Nota3,Nota3,Nota3,NotaB,NotaB,NotaB,
+Enterococcus,"Nitrofurantoína (exclusivamente ITU não complicada), E. faecalis",64,-,>64,15,-,<15,
+Enterococcus,Sulfametoxazol-trimetoprima5,Nota4,Nota4,Nota4,NotaC,NotaC,NotaC,
+Enterococcus,Exemplos de halos de inibição de vancomicina para Enterococcus faecalis e E. faecium.,,,,,,,
+Enterococcus,a) Bordas do halo regulares (bem definidas) e diâmetro do halo ≥ 12 mm. Reportar como sensível.,,,,,,,
+Enterococcus,b-d) Bordas irregulares (difusas ou mal definidas) ou presença de colônias dentro do halo de inibição. Realizar teste confirmatório por PCR para genes van ou reportar como resistente mesmo se o diâmetro do halo for ≥ 12 mm.,,,,,,,
+"Streptococcus A,B,C,G","Benzilpenicilina2, Streptococcus grupos A, C e G","0,03",-,">0,03",23,-,<23,"1/A. A sensibilidade dos Streptococcus dos grupos A, B, C e G às penicilinas é inferida a partir da sensibilidade à benzilpenicilina (infecções não meníngeas), com exceção da fenoximetilpenicilina e isoxazolilpenicilinas para Streptococcus do grupo B, onde não há evidências suficientes de eficácia clínica."
+"Streptococcus A,B,C,G","Benzilpenicilina2,  
+S. agalactiae (Streptococcus grupo B)","0,125",-,">0,125",18,-,<18,2. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+"Streptococcus A,B,C,G",Ampicilina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,3. A adição de um inibidor de β-lactamase não resulta em benefício clínico.
+"Streptococcus A,B,C,G",Ampicilina-sulbactam3,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Amoxicilina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Amoxicilina-ácido clavulânico3,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Piperacilina-tazobactam3,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G","Fenoximetilpenicilina
+Streptococcus grupos A, C e G",Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G","Oxacilina
+Streptococcus grupos A, C e G",Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G","Streptococcus dos grupos A, B, C e G",,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025"
+"Streptococcus A,B,C,G",Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+"Streptococcus A,B,C,G",Cefalosporinas1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Cefaclor,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. A sensibilidade dos estreptococos dos grupos A, B, C e G  às cefalosporinas é inferida a partir da sensibilidade à benzilpenicilina."
+"Streptococcus A,B,C,G",Cefadroxila,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Cefalexina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,2/B. A adição do inibidor de betalactamase não resulta em benefício clínico.
+"Streptococcus A,B,C,G",Cefazolina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Cefepima,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Cefepima-enmetazobactam2,Nota2,Nota2,Nota2,NotaB,NotaB,NotaB,
+"Streptococcus A,B,C,G",Cefiderocol,EI,EI,EI,EI,EI,EI,
+"Streptococcus A,B,C,G",Cefotaxima,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Cefoxitina,EI,EI,EI,EI,EI,EI,
+"Streptococcus A,B,C,G",Ceftarolina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Ceftazidima,-,-,-,-,-,-,
+"Streptococcus A,B,C,G",Ceftolozana-tazobactam2,EI,EI,EI,EI,EI,EI,
+"Streptococcus A,B,C,G",Ceftriaxona,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Cefuroxima iv,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Cefuroxima oral,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Carbapenêmicos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Doripenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. A sensibilidade dos Streptococcus dos grupos A, B, C e G aos carbapenêmicos é inferida a partir da"
+"Streptococcus A,B,C,G",Ertapenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"sensibilidade à benzilpenicilina.
+2/B.  A adição do inibidor de betalactamase não resulta em benefício clínico."
+"Streptococcus A,B,C,G",Imipenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Imipenem-relebactam2,Nota2,Nota2,Nota2,NotaB,NotaB,NotaB,
+"Streptococcus A,B,C,G",Meropenem,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Meropenem-vaborbactam2,Nota2,Nota2,Nota2,NotaB,NotaB,NotaB,
+"Streptococcus A,B,C,G",Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Ciprofloxacino,-,-,-,-,-,-,"A. O teste de disco-difusão aguarda ação da indústria farmacêutica responsável. 
+B. O teste de disco-difusão com norfloxacino pode ser utilizado para triagem de resistência às fluoroquinolonas. Ver Nota C.
+C. Isolados categorizados como negativos no teste de triagem (diâmetro do hlo ≥12 mm) podem ser reportados como sensíveis ao moxifloxacino e como ""sensível, aumentando exposição"" (I) ao levofloxacino. Isolados categorizados como positivos (diâmetro do halo <12 mm) no teste de triagem devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes."
+"Streptococcus A,B,C,G",Delafloxacino,"0,03",-,">0,03",NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Levofloxacino,"0,001","0,002-2",>2,50B,17-49B,<17B,
+"Streptococcus A,B,C,G",Moxifloxacino,"0,5",-,">0,5",19B,-,<19B,
+"Streptococcus A,B,C,G",Norfloxacino (exclusivamente triagem),,,,12C,-,<12C,
+"Streptococcus A,B,C,G",Ofloxacino,-,-,-,-,-,-,
+"Streptococcus A,B,C,G","Streptococcus dos grupos A, B, C e G",,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025"
+"Streptococcus A,B,C,G",Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+"Streptococcus A,B,C,G",Glicopeptídeos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Teicoplanina1,2,-,>2,15A,-,<15A,1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados restentes devem ser confirmados em laboratório de referência.
+"Streptococcus A,B,C,G",Vancomicina1,2,-,>2,13A,-,<13A,A. Isolados não-selvagens não estavam disponíveis quando do desenvolvimento do método de disco-difusão.
+"Streptococcus A,B,C,G",Macrolídeos e lincosamidas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Azitromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,"1/A. A eritromicina pode ser utilizada para triagem de resistência a macrolídeos em Streptococcus grupos A, B, C e G. Isolados categorizados como sensíveis podem ser reportados como sensíveis à azitromicina, claritromicina e roxitromicina. Isolados categorizados como resistentes à eritromicina devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+2. A resistência induzível à clindamicina pode ser detectada pelo antagonismo da atividade da clindamicina por agente macrolídeo. Se o antagonismo não for detectado, reportar como testado de acordo com os pontos de corte clínicos. Se detectado, reportar como resistente e considerar a inclusão do comentário: “A clindamicina ainda pode ser utilizada para tratamento de curta duração ou tratamento de infecções menos graves de pele e tecidos moles, pois é improvável haver desenvolvimento de resistência plena durante tais tratamentos”. A importância clínica da resistência induzível à clindamicina em tratamento combinado nas infecções graves por Streptococcus pyogenes é desconhecida.
+B. Posicionar os discos de eritromicina e clindamicina separados 12-16 mm (borda a borda) e observar a ocorrência de antagonismo (halo de inibição em forma de D)."
+"Streptococcus A,B,C,G",Claritromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Eritromicina,"0,251",-,">0,251",21A,-,<21A,
+"Streptococcus A,B,C,G",Clindamicina2,"0,5",-,">0,5",17B,-,<17B,
+"Streptococcus A,B,C,G",Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Doxiciclina,11,-,>11,NotaA,NotaA,NotaA,1/A. A tetraciclina pode ser usada para triagem de resistência às demais tetraciclinas. Isolados categorizados como sensíveis na triagem podem ser reportados como sensíveis à doxiciclina e minociclina. Isolados categorizados como resistentes na triagem devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+"Streptococcus A,B,C,G",Minociclina,"0,51",-,">0,51",23A,-,<23A,2. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+"Streptococcus A,B,C,G",Tetraciclina,11,-,>11,23A,-,<23A,"3. Para determinação da CIM de tigeciclina por microdiluição, o meio deve ser preparado fresco no dia do uso."
+"Streptococcus A,B,C,G",Tigeciclina 2,"0,1253",-,">0,1253",19,-,<19,
+"Streptococcus A,B,C,G","Streptococcus dos grupos A, B, C e G",,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025"
+"Streptococcus A,B,C,G",Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+"Streptococcus A,B,C,G",Oxazolidinonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Linezolida1,2,-,>2,19,-,<19,1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+"Streptococcus A,B,C,G",Tedizolida1,"0,52",-,">0,5",18A,-,<18A,2/A. Isolados sensíveis à linezolida podem ser considerados sensíveis à tedizolida.
+"Streptococcus A,B,C,G",Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+"Streptococcus A,B,C,G",Ácido fusídico,EI,EI,EI,EI,EI,EI,1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+"Streptococcus A,B,C,G",Cloranfenicol,EI,EI,EI,EI,EI,EI,"2. Para determinação da CIM de daptomicina o meio deve ser suplementado com Ca++ para uma concentração final de 50 mg/L para o método da microdiluição em caldo. A diluição em ágar não está validada. Siga as instruções do fabricante caso utilize um sistema comercial.
+3. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+
+A. Utilizar um método para determinar a CIM."
+"Streptococcus A,B,C,G",Daptomicina1,12,-,>12,NotaA,NotaA,NotaA,
+"Streptococcus A,B,C,G",Lefamulina,EI,EI,EI,EI,EI,EI,
+"Streptococcus A,B,C,G","Nitrofurantoína (exclusivamente ITU não complicada), Streptococcus agalactiae (Estreptococo do grupo B)",64,-,>64,15,-,<15,
+"Streptococcus A,B,C,G",Rifampicina,"0,25",-,">0,25",21,-,<21,
+"Streptococcus A,B,C,G",Sulfametoxazol-trimetoprima3,1,2,>2,18,15-17,<15,
+S. pneumoniae,Benzilpenicilina (excluindo endocardite e meningite),"0,06","0,125-1",>1,"NotaA,B","NotaA,B","NotaA,B","A. ATENÇÃO: Ler e interpretar o disco de benzilpenicilina apenas para isolados com diâmetros de halo com disco de 1 µg de oxacilina <20 mm. Se o halo de benzilpenicilina for ≥14 mm, reportar a benzilpenicilina como “sensível, aumentando exposição” (I). Se o halo for <14 mm, reportar resistência à benzilpenicilina (R), ver o fluxograma abaixo. 
+
+1/B. O teste de triagem com disco de oxacilina 1 µg ou teste para determinação da CIM de benzilpeniclina deve ser utilizado para excluir mecanismos de resistência aos betalactâmicos. Quando o teste de triagem for negativo (halo de inibição ≥20 mm, ou a CIM de benzilpenicilina ≤0,06 mg/L), todos os agentes betalactâmicos para os quais estão disponíveis pontos de corte clínicos, incluindo aqueles com “Nota”, poderão ser reportados como sensíveis sem testes adicionais, exceto para cefaclor, que deverá ser reportado como ""Sensível, aumentando exposição"" (I). Quando a triagem for positiva (halo de inibição <20 mm ou a CIM de benzilpenicilina for > 0,06 mg/L), consultar o fluxograma abaixo para interpretação.
+2. Para pontos de corte e doses em pneumonia, ver a tabela de dosagens.
+2. A adição de um inibidor de β-lactamase não adiciona benefício clínico.
+3/C. Sensibilidade inferida a partir da ampicilina (infecções não meníngeas e endocardite).
+4. Para fins de teste de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L.
+
+D. Para interpretação do teste de triagem com disco de oxacilina, ver fluxograma abaixo."
+S. pneumoniae,Benzilpenicilina (endocardite e meningite),"0,06",-,">0,06",NotaB,NotaB,NotaB,
+S. pneumoniae,Ampicilina (excluindo endocardites e meningites),"0,5",1,>1,22,19-21,<19,
+S. pneumoniae,Ampicilina IV (endocardite e meningite),"0,5",-,">0,5",NotaB,NotaB,NotaB,
+S. pneumoniae,Ampicilina-sulbactam2,"Nota1,3","Nota1,3","Nota1,3","NotaB,C","NotaB,C","NotaB,C",
+S. pneumoniae,Amoxicilina iv (excluindo endocardite e meningite),"Nota1,3","Nota1,3","Nota1,3","NotaB,C","NotaB,C","NotaB,C",
+S. pneumoniae,Amoxicilina iv (endocardite e meningite),"0,5",-,">0,5",NotaB,NotaB,NotaB,
+S. pneumoniae,Amoxicilina oral,"0,5",1,>1,"NotaB,C","NotaB,C","NotaB,C",
+S. pneumoniae,Amoxicilina-ácido clavulânico iv2,"Nota1,3","Nota1,3","Nota1,3","NotaB,C","NotaB,C","NotaB,C",
+S. pneumoniae,Amoxicilina-ácido clavulânico oral2,"0,54",14,>14,"NotaB,C","NotaB,C","NotaB,C",
+S. pneumoniae,Piperacilina-tazobactam2,"Nota1,3","Nota1,3","Nota1,3","NotaB,C","NotaB,C","NotaB,C",
+S. pneumoniae,Fenoximetilpenicilina,Nota1,Nota1,Nota1,NotaB,NotaB,NotaB,
+S. pneumoniae,Oxacilina (exclusivamente triagem)1,,,,20D,-,<20D,
+S. pneumoniae,Cefalosporinas1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Cefaclor,"0,001","0,002-0,5",">0,5",50,28-49,<28,"1/A. O teste de triagem com disco de oxacilina 1 µg ou teste para determinação da CIM de benzilpeniclina deve ser utilizado para excluir mecanismos de resistência aos betalactâmicos. Quando o teste de triagem for negativo (halo de inibição ≥ 20 mm, ou a CIM de benzilpenicilina ≤0,06 mg/L), todos os agentes betalactâmicos para os quais estão disponíveis pontos de corte clínicos, incluindo aqueles com “Nota”, poderão ser reportados como sensíveis sem testes adicionais, exceto para cefaclor, que deverá ser reportado como ""sensível, aumentando exposição (I). Quando a triagem for positiva (halo de inibição <20 mm ou a CIM de benzilpenicilina for > 0,06 mg/L), consultar o fluxograma abaixo para interpretação.
+2/B. A adição de um inibidor de β-lactamase não resulta em benefício clínico."
+S. pneumoniae,Cefadroxila,-,-,-,-,-,-,
+S. pneumoniae,Cefalexina,-,-,-,-,-,-,
+S. pneumoniae,Cefazolina,-,-,-,-,-,-,
+S. pneumoniae,Cefepima,1,2,>2,NotaA,NotaA,NotaA,
+S. pneumoniae,Cefepima-enmetazobactam2,Nota2,Nota2,Nota2,NotaB,NotaB,NotaB,
+S. pneumoniae,Cefiderocol,EI,EI,EI,EI,EI,EI,
+S. pneumoniae,Cefotaxima (excluindo endocardite e meningite),"0,5",1-2,>2,NotaA,NotaA,NotaA,
+S. pneumoniae,Cefotaxima (endocardite e meningite),"0,5",-,">0,5",NotaA,NotaA,NotaA,
+S. pneumoniae,Ceftarolina,"0,25",-,">0,25",NotaA,NotaA,NotaA,
+S. pneumoniae,Ceftriaxona (excluindo endocardite e meningite),"0,5",1-2,>2,NotaA,NotaA,NotaA,
+S. pneumoniae,Ceftriaxona (endocardite e meningite),"0,5",-,">0,5",NotaA,NotaA,NotaA,
+S. pneumoniae,Cefuroxima iv,"0,5",1,>1,NotaA,NotaA,NotaA,
+S. pneumoniae,Cefuroxima oral,"0,25",-,">0,25",NotaA,NotaA,NotaA,
+S. pneumoniae,Streptococcus pneumoniae,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+S. pneumoniae,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+S. pneumoniae,"Carbapenêmicos1,2",Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Doripenem,1,-,>1,NotaA,NotaA,NotaA,
+S. pneumoniae,Ertapenem,"0,5",-,">0,5",NotaA,NotaA,NotaA,"1/A. O teste de triagem com disco de oxacilina 1 µg ou teste para determinação da CIM de benzilpenicilina deve ser utilizado para excluir mecanismos de resistência aos betalactâmicos. Quando o teste de triagem for negativo (halo de inibição ≥ 20 mm, ou a CIM de benzilpenicilina ≤0,06 mg/L), todos os agentes betalactâmicos para os quais estão disponíveis pontos de corte clínicos, incluindo aqueles com “Nota”, poderão ser reportados como sensíveis sem testes adicionais, exceto para cefaclor, que deverá ser reportado como ""sensível, aumentando exposição (I). Quando a triagem for positiva (halo de inibição <20 mm ou a CIM de benzilpenicilina for > 0,06 mg/L), consultar o fluxograma abaixo para interpretação.
+2. Meropenem é o único carbapenêmico utilizado para o tratamento de meningites.
+3/B. A adição de um inibidor de betalactamases não adiciona benefício clínico."
+S. pneumoniae,Imipenem,2,-,>2,NotaA,NotaA,NotaA,
+S. pneumoniae,Imipenem-relebactam3,Nota3,Nota3,Nota3,NotaB,NotaB,NotaB,
+S. pneumoniae,Meropenem (infecções não meníngeas),2,-,>2,NotaA,NotaA,NotaA,
+S. pneumoniae,Meropenem (meningite),"0,25",-,">0,25",NotaA,NotaA,NotaA,
+S. pneumoniae,Meropenem-vaborbactam3,Nota3,Nota3,Nota3,NotaB,NotaB,NotaB,
+S. pneumoniae,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Ciprofloxacino,-,-,-,-,-,-,"A. O teste de disco-difusão para norfloxacino pode ser utilizado como teste de triagem para resistência às fluoroquinolonas. Ver Nota B.
+B. Os isolados categorizados como teste de triagem negativo ao norfloxacino (diâmetro do halo ≥10 mm) podem ser reportados como sensíveis ao moxifloxacino e como ""sensível, aumentando exposição"" (I) ao levofloxacino. Os isolados classificados na triagem como positivos (diâmetro do halo <10mm) devem ser testados quanto à sensibilidade aos antimicrobianos específicos ou reportados como resistentes."
+S. pneumoniae,Delafloxacino,EI,EI,EI,EI,EI,EI,
+S. pneumoniae,Levofloxacino,"0,001","0,002-2",>2,50A,16-49A,<16A,
+S. pneumoniae,Moxifloxacino,"0,5",-,">0,5",22A,-,<22A,
+S. pneumoniae,Norfloxacino (exclusivamente triagem),,,,10B,-,<10B,
+S. pneumoniae,Ofloxacino,-,-,-,-,-,-,
+S. pneumoniae,Glicopeptídeos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Teicoplanina1,2,-,>2,17A,-,<17A,1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+S. pneumoniae,Vancomicina1,2,-,>2,16A,-,<16A,A. Isolados não-selvagens não estavam disponíveis quando do desenvolvimento do método de disco-difusão.
+S. pneumoniae,Streptococcus pneumoniae,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+S. pneumoniae,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+S. pneumoniae,Macrolídeos e lincosamidas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Azitromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,"1/A. A eritromicina pode ser utilizada para triagem de resistência a macrolídeos em Streptococcus pneumoniae. Isolados categorizados como sensíveis podem ser reportados como sensíveis à azitromicina, claritromicina e roxitromicina. Isolados categorizados como resistentes à eritromicina devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+2. A resistência induzível à clindamicina pode ser detectada pelo antagonismo da atividade da clindamicina por um macrolídeo. Se antagonismo não for detectado, reportar como testado, de acordo com os pontos de corte clínicos. Se detectado, reportar como resistente.  
+B. Posicionar os discos de eritromicina e clindamicina separados por 12-16 mm (borda a borda) e observar a ocorrência de  antagonismo (halo de inibição em forma de D)."
+S. pneumoniae,Claritromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,
+S. pneumoniae,Eritromicina,"0,251",-,">0,251",22A,-,<22A,
+S. pneumoniae,Clindamicina2,"0,5",-,">0,5",19B,-,<19B,
+S. pneumoniae,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Doxiciclina,11,-,>11,NotaA,NotaA,NotaA,1/A. A tetraciclina pode ser usada para triagem de resistência às demais tetraciclinas. Isolados categorizados como sensíveis no teste de triagem podem ser reportados como sensíveis à doxiciclina e à minociclina. Isolados categorizados como resistestes devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+S. pneumoniae,Eravaciclina,EI,EI,EI,EI,EI,EI,
+S. pneumoniae,Minociclina,"0,51",-,">0,51",24A,-,<24A,
+S. pneumoniae,Tetraciclina,11,-,>11,25A,-,<25A,
+S. pneumoniae,Tigeciclina,EI,EI,EI,EI,EI,EI,
+S. pneumoniae,Oxazolidinonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Linezolida,2,-,>2,22,-,<22,
+S. pneumoniae,Tedizolida,EI,EI,EI,EI,EI,EI,
+S. pneumoniae,Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+S. pneumoniae,Cloranfenicol1,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. A eficácia para esta espécie é incerta. O ECOFF pode ser utilizado para diferenciar isolados selvagens daqueles com resistência adquirida (CIM > 8mg/L; diâmtero do halo < 21mm para o disco de cloranfenicol de 30 µg). Para o tratamento de meningites com cloranfenicol, consultar a tabela de dosagens. 
+2. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima."
+S. pneumoniae,Daptomicina,EI,EI,EI,EI,EI,EI,
+S. pneumoniae,Lefamulina,"0,5",-,">0,5",12,-,<12,
+S. pneumoniae,Rifampicina,"0,125",-,">0,125",22,-,<22,
+S. pneumoniae,Sulfametoxazol-trimetoprima2,1,2,>2,13,10-12,<10,
+S. pneumoniae,Streptococcus pneumoniae,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+S. pneumoniae,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Streptococcus Viridans,Benzilpenicilina (exclusivamente triagem),"0,251",-,"0,251",21A,-,<21A,"1/A. A benzilpenicilina (CIM ou disco-difusão) pode ser utilizada para triagem de resistência aos betalactâmicos em estreptococos do grupo viridans. Isolados categorizados como negativos na triagem (diâmetro do halo de inibição ≥21 mm ou CIM ≤0,25 mg/L) podem ser reportados como sensíveis aos agentes betalactâmicos para os quais os pontos de corte clínicos estão listados (incluindo aqueles com “Nota”). Isolados categorizados como positivos na triagem (diâmetro do halo de inibição <21 mm ou CIM >0,25 mg/L) devem ser testados quanto à sensibilidade aos antimicrobianos individualmente ou reportados como resistentes.
+2/B. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/.
+3. A adição de um inibidor da β-lactamase não adiciona benefício clínico.
+4/C. Para isolados negativos na triagem com benzilpenicilina (diâmetro do halo de inibição ≥ 21 mm ou CIM ≤0,25 mg/L), a sensibilidade pode ser inferida a partir da benzilpenicilina ou ampicilina. Para isolados positivos na triagem com benzilpenicilina (diâmetro do halo de inibição <21 mm ou CIM >0,25 mg/L), a sensibilidade deve ser  inferida a partir da ampicilina.
+D. A sensibilidade pode ser inferida a partir do teste de triagem com benzilpenicilina ou da ""Ampicilina iv (endocardite)""."
+Streptococcus Viridans,Benzilpenicilina (excluindo endocardite),"0,25","0,5-1",1,21,12-20,<12,
+Streptococcus Viridans,Benzilpenicilina (endocardite),"0,25",-,"0,25",21,-,<21,
+Streptococcus Viridans,"Benzilpenicilina (endocardite, em associação com outro antimicrobiano)",(1)2,-,(1)2,(12)B,-,(<12)B,
+Streptococcus Viridans,Ampicilina (excluindo endocardite),"0,5",1-2,2,21,15-20,<15,
+Streptococcus Viridans,Ampicilina iv (endocardite),"0,5",-,"0,5",21,-,<21,
+Streptococcus Viridans,Ampicilina-sulbactam3,"Nota1,4","Nota1,4","Note1,4","NotaA,C","NotaA,C","NotaA,C",
+Streptococcus Viridans,Amoxicilina (excluindo endocardite),"0,5",1-2,2,"NotaA,C","NotaA,C","NotaA,C",
+Streptococcus Viridans,Amoxicilina iv (endocardite),"0,5",-,"0,5","NotaA,D","NotaA,D","NotaA,D",
+Streptococcus Viridans,Amoxicilina-clavulanato3,"Nota1,4","Nota1,4","Nota1,4","NotaA,C","NotaA,C","NotaA,C",
+Streptococcus Viridans,Piperacilina-tazobactam3,"Nota1,4","Nota1,4","Nota1,4","NotaA,C","NotaA,C","NotaA,C",
+Streptococcus Viridans,Fenoximetilpenicilina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Oxacilina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Streptococcus do Grupo Viridans,,,,,,,
+Streptococcus Viridans,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Streptococcus Viridans,Cefalosporinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Cefaclor,-,-,-,-,-,-,"1. A adição de um inibidor de β-lactamase não adiciona benefício clínico.
+
+A. A benzilpenicilina (CIM ou disco-difusão) pode ser utilizada para triagem de resistência aos  β-lactâmicos em estreptococos do grupo viridans. Ver Nota 1/A em penicilinas."
+Streptococcus Viridans,Cefadroxila,-,-,-,-,-,-,
+Streptococcus Viridans,Cefalexina,-,-,-,-,-,-,
+Streptococcus Viridans,Cefazolina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Cefepima,"0,5",-,">0,5",25A,-,<25A,
+Streptococcus Viridans,Cefepima-enmetazobactam1,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Streptococcus Viridans,Cefiderocol,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Cefotaxima,"0,5",-,">0,5",23A,-,<23A,
+Streptococcus Viridans,"Ceftolozana-tazobactam1, grupo S. anginosus",EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Ceftriaxona,"0,5",-,">0,5",27A,-,<27A,
+Streptococcus Viridans,Cefuroxima iv,"0,5",-,">0,5",26A,-,<26A,
+Streptococcus Viridans,Cefuroxima oral,-,-,-,-,-,-,
+Streptococcus Viridans,Streptococcus do Grupo Viridans,,,,,,,
+Streptococcus Viridans,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Streptococcus Viridans,Carbapenêmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Doripenem,1,-,>1,NotaA,NotaA,NotaA,"1.Para fins de teste de sensibilidade, a concentração de relebactam é fixada em 4 mg/L.
+2/B. A adição de um inibidor da betalactamase não adiciona benefício clínico.
+
+A. A benzilpenicilina (CIM ou disco-difusão) pode ser utilizada para triagem de resistência aos  β-lactâmicos em estreptococos do grupo viridans. Ver Nota 1/A em penicilinas."
+Streptococcus Viridans,Ertapenem,"0,5",-,">0,5",NotaA,NotaA,NotaA,
+Streptococcus Viridans,Imipenem,2,-,>2,NotaA,NotaA,NotaA,
+Streptococcus Viridans,Imipenem-relebactam2,21,-,>21,"NotaA,B","NotaA,B","NotaA,B",
+Streptococcus Viridans,Meropenem,2,-,>2,NotaA,NotaA,NotaA,
+Streptococcus Viridans,Meropenem-vaborbactam2,Nota2,Nota2,Nota2,NotaB,NotaB,NotaB,
+Streptococcus Viridans,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Ciprofloxacino,-,-,-,-,-,-,"1/B. O moxifloxacino tem sido utilizado na transição para o tratamento oral da endocardite causada por estreptococos do grupo viridans. Não há pontos de corte clínicos, mas a resistência adquirida (isolados com CIM >0,5 mg/L; diâmetro do halo <21 mm para o disco de moxifloxacino de 5 µg) deve ser excluída. Quando excluída, o isolado deve ser reportado como “desprovido de mecanismos de resistência às fluoroquinolonas”, mas não como sensível ao moxifloxacino.
+
+A. O teste de disco-difusão aguarda ação da indústria farmacêutica responsável."
+Streptococcus Viridans,"Delafloxacino, grupo S. anginosus","0,03",-,">0,03",NotaA,NotaA,NotaA,
+Streptococcus Viridans,Levofloxacino,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Moxifloxacino,Nota1,Nota1,Nota1,NotaB,NotaB,NotaB,
+Streptococcus Viridans,Norfloxacino exclusivamente ITU não complicada,-,-,-,-,-,-,
+Streptococcus Viridans,Ofloxacino,-,-,-,-,-,-,
+Streptococcus Viridans,Aminoglicosídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Amicacina,Nota2,Nota2,Nota2,-,-,-,"1. Os estreptococos do grupo viridans são resistentes aos aminoglicosídeos quando utilizados​​ em monoterapia. Há probabilidade de haver sinergia com penicilinas ou glicopeptídeos se o isolado não expressar enzimas modificadoras de aminoglicosídeos adquiridas.
+2. A gentamicina pode ser utilizada como triagem para a presença de enzimas modificadoras de aminoglicosídeos (resistência de alto nível aos aminoglicosídeos). 
+
+Teste negativo: Isolados com CIM de gentamicina ≤128 mg/L. O isolado é do tipo selvagem para gentamicina (ou seja, não expressa enzimas modificadoras de aminoglicosídeos). Portanto, pode-se esperar efeito sinérgico com penicilinas ou glicopeptídeos se o isolado for sensível à penicilina ou glicopeptídeo.
+Teste positivo: Isolados com CIM de gentamicina >128 mg/L indicam presença de enzimas modificadoras de aminoglicosídeos. As combinações de penicilinas ou glicopeptídeos e aminoglicosídeos não terão efeito sinérgico."
+Streptococcus Viridans,Gentamicina  (teste para enzima modificadora de aminoglicosídeo adquirida - resistência de alto nível),Nota2,Nota2,Nota2,-,-,-,
+Streptococcus Viridans,Netilmicina,Nota2,Nota2,Nota2,-,-,-,
+Streptococcus Viridans,Tobramicina,Nota2,Nota2,Nota2,-,-,-,
+Streptococcus Viridans,Glicopeptídeos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Teicoplanina1,2,-,>2,16A,-,<16A,1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+Streptococcus Viridans,Vancomicina1,2,-,>2,15A,-,<15A,A. Isolados não-selvagens não estavam disponíveis quando do desenvolvimento do método de disco-difusão.
+Streptococcus Viridans,Streptococcus do Grupo Viridans,,,,,,,
+Streptococcus Viridans,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Streptococcus Viridans,Macrolídeos e lincosamidas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Azitromicina,EI,EI,EI,EI,EI,EI,"1. A resistência induzível à clindamicina pode ser detectada pelo antagonismo da atividade da clindamicina por um macrolídeo. Se antagonismo não for detectado, reportar como testado de acordo com os pontos de corte clínicos. Se detectado, reportar como resistente. 
+A. Posicionar os discos de eritromicina e clindamicina separados por 12-16 mm (borda a borda) e observar a ocorrência de antagonismo (halo de inibição em forma de D)."
+Streptococcus Viridans,Claritromicina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Eritromicina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Clindamicina1,"0,5",-,">0,5",19A,-,<19A,
+Streptococcus Viridans,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Doxiciclina,-,-,-,-,-,-,
+Streptococcus Viridans,Eravaciclina,"0,125",-,">0,125",17,-,<17,
+Streptococcus Viridans,Minociclina,-,-,-,-,-,-,
+Streptococcus Viridans,Tetraciclina,-,-,-,-,-,-,
+Streptococcus Viridans,Tigeciclina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Oxazolidinonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Linezolida,EI1,EI1,EI1,EI,EI,EI,"1. A linezolida tem sido utilizada na troca para terapia oral para tratamento de endocardite causada por Streptococcus do grupo viridans. Não existem pontos de corte clínicos, mas a resistência adquirida (isolados com CIM >2 mg/L) deve ser excluída. Quando excluído, o isolado deve ser reportado como “desprovido de mecanismos de resistência à linezolida”, mas não como sensível à linezolida."
+Streptococcus Viridans,"Tedizolida, grupo S. anginosus","0,5",-,">0,5",18,-,<18,
+Streptococcus Viridans,Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Streptococcus Viridans,Cloranfenicol,-,-,-,-,-,-,"1/A. A rifampicina tem sido utilizada na transição para o tratamento oral da endocardite causada por estreptococos do grupo viridans. Não há pontos de corte clínicos, mas a resistência adquirida (isolados com CIM >0,25 mg/L; diâmetro do halo <21 mm para o disco de 5 µg de rifampicina) deve ser excluída. Quando excluída, o isolado deve ser reportado  como “desprovido de mecanismos de resistência à rifampicina”, mas não como sensível à rifampicina."
+Streptococcus Viridans,Daptomicina,-,-,-,-,-,-,
+Streptococcus Viridans,Lefamulina,EI,EI,EI,EI,EI,EI,
+Streptococcus Viridans,Nitrofurantoína (apenas ITU não complicada),-,-,-,-,-,-,
+Streptococcus Viridans,Rifampicina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Streptococcus Viridans,Sulfametoxazol-trimetoprima,-,-,-,-,-,-,
+H.influenzae,Benzilpenicilina,EI,EI,EI,EI,EI,EI,
+H.influenzae,Benzilpenicilina (exclusivamente triagem)1,,,,"12A,B",-,"<12A,B","1/A. O teste de triagem com disco de benzilpenicilina 1U deve ser utilizado para excluir os mecanismos de resistência aos β-lactâmicos. Quando a triagem for negativa (halo de inibição ≥ 12 mm), todas as peniclinas para as quais estão disponíveis pontos de corte clínicos, incluindo aquelas com “Nota”, poderão ser reportadas como sensíveis sem testes adicionais, exceto para amoxicilina oral e amoxicilina-ácido clavulânico oral, que caso reportadas a categoria deve ser ""Sensível, aumentando exposição"" (I). Quando a triagem for positiva (halo de inibição <12 mm), consultar o fluxograma abaixo para interpretação.
+2. Isolados betalactamase positivos podem ser reportados como resistentes à ampicilina, amoxicilina e piperacilina sem inibidores. Testes contendo cefalosporina cromogênica podem ser usados para detectar β-lactamase.
+3. Para fins de testes de sensibilidade, a concentração de sulbactam é fixada em 4 mg/L.
+4/D. A sensibilidade pode ser inferida a partir da amoxicilina-ácido clavulânico iv.
+5. Para fins de testes de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L. 
+6. Para fins de testes de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L. 
+
+B. Para fins de aferição do diâmetro do halo, considerar a borda mais externa e desconsiderar o crescimento ao redor do disco. Ver as figuras abaixo.
+C. AIT relevante apenas se a triagem com disco de benzilpenicilina 1U for positiva (halo de inibição <12 mm).
+E. Sensibilidade inferida a partir da ampicilina.
+F. Isolados sensíveis à ampicilina podem ser reportados como ""Sensível, aumentado a exposição"" (I) para amoxicilina oral. Isolados resistentes à ampicilina podem ser reportados como resistentes à amoxicilina oral."
+H.influenzae,Ampicilina (excluindo endocardite e meningite)2,1,-,>1,"18A,B",-,"<18A,B",
+H.influenzae,Ampicilina iv (endocardite e meningite)2,EI,EI,EI,EI,EI,EI,
+H.influenzae,Ampicilina-sulbactam,"13,4",-,">13,4","NotaA,D","NotaA,D","NotaA,D",
+H.influenzae,Amoxicilina iv (excluindo endocardite e meningite)2,2,-,>2,"NotaA,E","NotaA,E","NotaA,E",
+H.influenzae,Amoxicilina iv (endocardite e meningite)2,EI,EI,EI,EI,EI,EI,
+H.influenzae,Amoxicilina oral2,"0,001","0,002-2",>2,"NotaA,F","NotaA,F","NotaA,F",
+H.influenzae,Amoxicilina-ácido clavulânico iv,25,-,>25,"15A,B",-,"<15A,B",
+H.influenzae,Amoxicilina-ácido clavulânico oral,"0,0015","0,002-25",>25,"50A,B","15-49A,B","<15A,B",
+H.influenzae,Piperacilina-tazobactam,"0,256",-,">0,256","27A,B",-,"<27A,B",
+H.influenzae,Haemophilus influenzae,,,,,,,
+H.influenzae,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+H.influenzae,Cefalosporinas1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+H.influenzae,Cefaclor,-,-,-,-,-,-,"1/A. O teste de triagem com disco de benzilpenicilina 1U deve ser utilizado para excluir os mecanismos de resistência aos β-lactâmicos. Quando a triagem for negativa (halo de inibição ≥ 12 mm), todas as cefalosporinas para as quais estão disponíveis pontos de corte clínicos, incluindo aqueles com “Nota”, poderão ser reportadas como sensíveis sem testes adicionais, exceto para cefuroxima oral, que caso reportada a categoria deve ser ""Sensível, aumentando exposição"" ( I ). Quando a triagem for positiva (halo de inibição <12 mm), consultar o fluxograma abaixo para interpretação.
+2/D. A adição de um inibidor de betalactamase não acrescenta benefício clínico. As betalactamases produzidas pelo microrganismo não modificam a cefalosporina original ou não são afetadas pelo inibidor. 
+3. Ver tabela de dosagens para doses em diferentes indicações.
+4/C. AIT relevante apenas se a triagem com disco de benzilpenicilina 1U for positiva (halo de inibição <12 mm).
+
+B. Para fins de aferição do diâmetro do halo, considerar a borda mais externa e desconsiderar o crescimento ao redor do disco. Ver as figuras abaixo.
+D. Para isolados de meningite, positivos na triagem com de disco de benzilpenicilina 1U (halo de inibição <12 mm), determinar a CIM."
+H.influenzae,Cefadroxila,-,-,-,-,-,-,
+H.influenzae,Cefalexina,-,-,-,-,-,-,
+H.influenzae,Cefazolina,-,-,-,-,-,-,
+H.influenzae,Cefepima,"0,25",-,">0,25","28A,B",-,"<28A,B",
+H.influenzae,Cefepima-enmetazobactam2,Nota2,Nota2,Nota2,NotaD,NotaD,NotaD,
+H.influenzae,Cefiderocol,EI,EI,EI,EI,EI,EI,
+H.influenzae,Cefixima,"0,125",-,">0,125","26A,B",-,"<26A,B",
+H.influenzae,Cefotaxima,"0,125",-,">0,125","27A,B",-,"<27A,B",
+H.influenzae,Cefpodoxima,"0,25",-,">0,25","26A,B",-,"<26A,B",
+H.influenzae,Ceftarolina,0.03,-,">0,03",NotaA,NotaA,NotaA,
+H.influenzae,Ceftazidima,-,-,-,-,-,-,
+H.influenzae,Ceftazidima-avibactam,-,-,-,-,-,-,
+H.influenzae,Ceftolozana-tazobactam (pneumonia)3,"0,5",-,">0,5","23A,B",-,"<23A,B",
+H.influenzae,Ceftriaxona,"0,125",-,">0,125","32A,B",-,"<32A,B",
+H.influenzae,Cefuroxima iv,1,2,>2,"27A,B",25-26A,"<25A,B",
+H.influenzae,Cefuroxima oral,"0,001","0,002-1",>1,"50A,B",27-49,"<27A,B",
+H.influenzae,"Carbapenêmicos1,2",Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+H.influenzae,Doripenem,1,-,>1,"23A,B",-,"<23A,B","1/A. O teste de triagem com disco de benzilpenicilina 1U deve ser utilizado para excluir os mecanismos de resistência aos β-lactâmicos. Quando a triagem for negativa (halo de inibição ≥ 12 mm), todos os carbapenêmicos para os quais estão disponíveis pontos de corte clínicos, incluindo aqueles com “Nota”, poderão ser relatados como sensíveis sem testes adicionais. Quando a triagem for positiva (halo de inibição <12 mm), consultar o fluxograma abaixo.
+2. Meropenem é o único carbapenêmico utilizado para o tratamento de meningites.
+3/E. As β-lactamases produzidas pelo microrganismo não modificam o carbapenêmico ou não são afetadas pelo inibidor; portanto, a adição do inibidor de β-lactamases não adiciona benefício clínico.
+
+B. Para fins de aferição do diâmetro do halo, considerar a borda mais externa e desconsiderar o crescimento ao redor do disco.Ver as figuras abaixo.
+C. AIT relevante apenas se a triagem com disco de benzilpenicilina 1U for positiva (halo de inibição <12 mm).
+D. Para isolados de meningite, positivos na triagem com de disco de benzilpenicilina 1U (halo de inibição <12 mm), determinar a CIM."
+H.influenzae,Ertapenem,"0,5",-,">0,5","23A,B",-,"<23A,B",
+H.influenzae,Imipenem,2,-,>2,"20A,B",-,"<20A,B",
+H.influenzae,Imipenem-relebactam3,Nota3,Nota3,Nota3,NotaE,NotaE,NotaE,
+H.influenzae,Meropenem (infecções não meníngeas),2,-,>2,"20A,B",-,"<20A,B",
+H.influenzae,Meropenem (meningite),"0,25",-,">0,25","NotaA,D","NotaA,D","NotaA,D",
+H.influenzae,Meropenem-vaborbactam3,Nota3,Nota3,Nota3,NotaE,NotaE,NotaE,
+H.influenzae,Haemophilus influenzae,,,,,,,
+H.influenzae,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+H.influenzae,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+H.influenzae,Ciprofloxacino,"0,03",-,">0,03",32A,-,<32A,"A. O teste de disco-difusão com ácido nalidíxico pode ser utilizado como triagem para resistência às fluoroquinolonas. Ver Nota C.
+B. A sensibilidade pode ser inferida a partir do teste de triagem com ácido nalidíxico.
+B. Isolados categorizados como teste de triagem negativo ao ácido nalidíxico (halo de inibição ≥ 23 mm) podem ser reportados como sensíveis ao levofloxacino, ciprofloxacino, moxifloxacino e ofloxacino. Isolados categorizados na triagem como positivos (halo de inibição <23 mm) podem apresentar resistência às fluoroquinolonas e devem ser testados contra os agentes individuais ou reportados como resistentes."
+H.influenzae,Delafloxacino,EI,EI,EI,EI,EI,EI,
+H.influenzae,Levofloxacino,"0,06",-,">0,06",30A,-,<30A,
+H.influenzae,Moxifloxacino,"0,125",-,">0,125",28A,-,<28A,
+H.influenzae,Ácido nalidíxico (exclusivamente triagem),,,,23B,-,<23B,
+H.influenzae,Norfloxacino (apenas em infecção não complicada do trato urinário),-,-,-,-,-,-,
+H.influenzae,Ofloxacino,"0,06",-,">0,06",30A,-,<30A,
+H.influenzae,Macrolídeos1,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+H.influenzae,Azitromicina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. As evidências clínicas sobre a eficácia de macrolídeos no tratamento de infecções respiratórias por H. influenzae são conflitantes devido à alta taxa de cura espontânea. Havendo a necessidade de testar algum macrolídeo contra esta espécie, os pontos de corte epidemiológicos (ECOFFs) devem ser utilizados para detectar cepas com resistência adquirida. Os ECOFFs são: azitromicina 4 mg/L, claritromicina 32 mg/L e eritromicina 16mg/L."
+H.influenzae,Claritromicina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+H.influenzae,Eritromicina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+H.influenzae,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+H.influenzae,Doxiciclina,11,-,>11,NotaA,NotaA,NotaA,1/A. A tetraciclina pode ser usada para triagem de resistência às demais tetraciclinas. Isolados categorizados como sensíveis à tetraciclina podem ser reportados como sensíveis à doxiciclina e à minociclina. Isolados categorizados como resistentes à tetraciclina devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+H.influenzae,Eravaciclina,EI,EI,EI,EI,EI,EI,
+H.influenzae,Minociclina,11,-,>11,24A,-,<24A,
+H.influenzae,Tetraciclina,21,-,>21,25A,-,<25A,
+H.influenzae,Tigeciclina,EI,EI,EI,EI,EI,EI,
+H.influenzae,Haemophilus influenzae,,,,,,,
+H.influenzae,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+H.influenzae,Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+H.influenzae,Cloranfenicol1,2,-,>2,28,-,<28,"1. Ver tabela de dosagens para uso de cloranfenicol no tratamento de meningites.
+2. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte estão expressos como concentração de trimetoprima."
+H.influenzae,Rifampicina (exclusivamente profilaxia),1,-,>1,18,-,<18,
+H.influenzae,Sulfametoxazol-trimetoprima2,"0,5",1,>1,23,20-22,<20,
+H.influenzae,"Exemplos de halos de inibição para H. influenzae e um agente betalactâmico, onde um halo de inibição claro contém uma área de crescimento ao redor do disco.
+Para fins de aferição do diâmetro do halo, considerar a borda mais externa e desconsiderar o crescimento ao redor do disco.",,,,,,,
+H.influenzae,Haemophilus influenzae,,,,,,,
+H.influenzae,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+H.influenzae,"* Para cefepima, cefpodoxima e imipenem, se resistente tanto na triagem quanto por disco-difusão, relatar resistência. Se resistente no teste de triagem e sensível em por disco-difusão, determinar a CIM do antimicrobiano e interpretar de acordo com os pontos de corte.",,,,,,,
+M.catarrhalis,Ampicilina,-1,-,-1,-,-,-,"1. A maioria dos isolados de M. catarrhalis produz β-lactamase, embora a produção de β-lactamase seja lenta e possa gerar resultados fracamente positivos nos testes in vitro. Produtores de β-lactamase devem ser reportados como resistentes à penicilinas e às aminopenicilinas sem inibidores."
+M.catarrhalis,Ampicilina-sulbactam,"12,3",-,">12,3",NotaA,NotaA,NotaA,
+M.catarrhalis,Amoxicilina,-1,-,-1,-,-,-,
+M.catarrhalis,Amoxicilina-ácido clavulânico,14,-,>14,19,-,<19,"2. Para fins de testes de sensibilidade, a concentração de sulbactam é fixada em 4 mg/L."
+M.catarrhalis,Piperacilina-tazobactam,Nota3,Nota3,Nota3,NotaA,NotaA,NotaA,3/A. A sensibilidade pode ser inferida a partir da amoxicilina-ácido clavulânico.
+M.catarrhalis,Cefalosporinas,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+M.catarrhalis,Cefaclor,-,-,-,-,-,-,1/A. A adição de um inibidor de betalactamase não acrescenta benefício clínico. As betalactamases produzidas pelo organismo não modificam a cefalosporina original ou não são afetadas pelo inibidor.
+M.catarrhalis,Cefadroxila,-,-,-,-,-,-,
+M.catarrhalis,Cefalexina,-,-,-,-,-,-,
+M.catarrhalis,Cefazolina,-,-,-,-,-,-,
+M.catarrhalis,Cefepima,4,-,>4,20,-,<20,
+M.catarrhalis,Cefepima-enmetazobactam1,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+M.catarrhalis,Cefiderocol,EI,EI,EI,EI,EI,EI,
+M.catarrhalis,Cefixima,"0,5",-,">0,5",21,-,<21,
+M.catarrhalis,Cefotaxima,1,2,>2,20,17-19,<17,
+M.catarrhalis,Ceftarolina,EI,EI,EI,EI,EI,EI,
+M.catarrhalis,Ceftazidima,-,-,-,-,-,-,
+M.catarrhalis,Ceftriaxona,1,2,>2,24,21-23,<21,
+M.catarrhalis,Cefuroxima iv,4,8,>8,21,18-20,<18,
+M.catarrhalis,Cefuroxima oral,"0,001","0,002-4",>4,50,21-49,<21,
+M.catarrhalis,Carbapenêmicos,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+M.catarrhalis,Doripenem1,1,-,>1,30,-,<30,"1. Isolados resistentes são raros ou ainda não foram reportados. A identificação e o teste de sensibilidade em isolados resistentes devem ser confirmados em centro de referência.
+2/A. As β-lactamases produzidas pelo microrganismo não modificam o carbapenêmico ou não são afetadas pelo inibidor; portanto, a adição do inibidor de β-lactamases não adiciona benefício clínico."
+M.catarrhalis,Ertapenem1,"0,5",-,">0,5",29,-,<29,
+M.catarrhalis,Imipenem1,2,-,>2,29,-,<29,
+M.catarrhalis,Imipenem-relebactam2,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,
+M.catarrhalis,Meropenem1,2,-,>2,33,-,<33,
+M.catarrhalis,Meropenem-vaborbactam2,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,
+M.catarrhalis,Moraxella catarrhalis,,,,,,,
+M.catarrhalis,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+M.catarrhalis,Fluoroquinolonas,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+M.catarrhalis,Ciprofloxacino,"0,125",-,">0,125",31A,-,<31A,"A. O teste de disco-difusão com ácido nalidíxico pode ser utilizado para triagem de resistência às fluoroquinolonas. Ver Nota B.
+B. Isolados categorizados como negativos no teste de triagem (diâmetro do halo de inibição ≥23 mm) podem ser reportados como sensíveis ao levofloxacino, ciprofloxacino, moxifloxacino e ofloxacino. Isolados categorizados como positivos no teste de triagem (diâmetro do halo de inibição <23 mm) devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes."
+M.catarrhalis,Delafloxacino,EI,EI,EI,EI,EI,EI,
+M.catarrhalis,Levofloxacino,"0,125",-,">0,125",29A,-,<29A,
+M.catarrhalis,Moxifloxacino,"0,25",-,">0,25",26A,-,<26A,
+M.catarrhalis,Ácido Nalidíxico (exclusivamente triagem),,,,23B,-,<23B,
+M.catarrhalis,Norfloxacino (exclusivamente ITU não complicada),-,-,-,-,-,-,
+M.catarrhalis,Ofloxacino,"0,25",-,">0,25",28A,-,<28A,
+M.catarrhalis,Macrolídeos,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+M.catarrhalis,Azitromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,"1/A. A eritromicina pode ser utilizada para triagem de resistência a macrolídeos em Moraxella catarrhalis. Isolados categorizados como sensíveis podem ser reportados como sensíveis à azitromicina, claritromicina e roxitromicina. Isolados classificados como resistentes à eritromicina devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes."
+M.catarrhalis,Claritromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,
+M.catarrhalis,Eritromicina,"0,25",-,">0,25",23A,-,<23A,
+M.catarrhalis,Tetraciclinas,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+M.catarrhalis,Doxiciclina,11,-,>11,NotaA,NotaA,NotaA,1/A. Tetraciclina pode ser utilizada para triagem de resistência às demais tetraciclinas. Isolados categorizados como sensíveis à tetraciclina podem ser reportados como sensíveis à doxiciclina e à minociclina. Isolados categorizados como resistentes à tetraciclina devem ser testados quanto à sensibilidade a agentes individuais ou reportados como resistentes.
+M.catarrhalis,Minociclina,11,-,>11,25A,-,<25A,
+M.catarrhalis,Tetraciclina,21,-,>21,26A,-,<26A,
+M.catarrhalis,Tigeciclina,EI,EI,EI,EI,EI,EI,
+M.catarrhalis,Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+M.catarrhalis,Cloranfenicol,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,"1/A. Para uso tópico de cloranfenicol, ver tabela de agentes de uso tópico."
+M.catarrhalis,Sulfametoxazol-trimetoprima2,"0,5",1,>1,18,15-17,<15,2. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte estão expressos de acordo com a concentração de trimetoprima.
+N.gonorrhoeae,Benzilpenicilina (agente alternativo)1,"0,06 1","0,125-1",>1,,,,
+N.gonorrhoeae,Ampicilina1,Nota1,Nota1,Nota1,,,,
+N.gonorrhoeae,Ampicilina-sulbactam,EI,EI,EI,,,,
+N.gonorrhoeae,Amoxicilina1,Nota1,Nota1,Nota1,,,,
+N.gonorrhoeae,Amoxicilina-ácido clavulânico,EI,EI,EI,,,,
+N.gonorrhoeae,Cefalosporinas,Ponto de corte p/ CIM (mg/L),,,,,,
+N.gonorrhoeae,Cefiderocol,EI,EI,EI,,,,
+N.gonorrhoeae,Cefixima,"0,125",-,">0,125",,,,
+N.gonorrhoeae,Cefotaxima,"0,125",-,">0,125",,,,
+N.gonorrhoeae,Ceftriaxona,"0,125",-,">0,125",,,,
+N.gonorrhoeae,Carbapenêmicos,Ponto de corte p/ CIM (mg/L),,,,,,
+N.gonorrhoeae,Doripenem,EI,EI,EI,,,,
+N.gonorrhoeae,Ertapenem,EI,EI,EI,,,,
+N.gonorrhoeae,Imipenem,EI,EI,EI,,,,
+N.gonorrhoeae,Imipenem-relebactam,EI,EI,EI,,,,
+N.gonorrhoeae,Meropenem,EI,EI,EI,,,,
+N.gonorrhoeae,Meropenem-vaborbactam,EI,EI,EI,,,,
+N.gonorrhoeae,Neisseria gonorrhoeae,,,,,,,
+N.gonorrhoeae,Regras de Especialistas e Fenótipos Esperados,Documentos de orientação,,,,,,
+N.gonorrhoeae,Fluorquinolonas,Ponto de corte p/ CIM (mg/L),,,,,,
+N.gonorrhoeae,Ciprofloxacino,"0,03","0,06",">0,06",,,,
+N.gonorrhoeae,Delafloxacino,EI,EI,EI,,,,
+N.gonorrhoeae,Levofloxacino,EI,EI,EI,,,,
+N.gonorrhoeae,Moxifloxacino,EI,EI,EI,,,,
+N.gonorrhoeae,Ácido nalidíxico (exclusivamente triagem),,,,,,,
+N.gonorrhoeae,Norfloxacino (exclusivamente em infecção do trato urinário não complicada),-,-,-,,,,
+N.gonorrhoeae,Ofloxacino,"0,125","0,25",">0,25",,,,
+N.gonorrhoeae,Macrolídeos,Ponto de corte p/ CIM (mg/L),,,,,,
+N.gonorrhoeae,Azitromicina,Nota1,Nota1,Nota1,,,,
+N.gonorrhoeae,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,,,,
+N.gonorrhoeae,Doxiciclina,EI,EI,EI,,,,
+N.gonorrhoeae,Everaciclina,EI,EI,EI,,,,
+N.gonorrhoeae,Minociclina,EI,EI,EI,,,,
+N.gonorrhoeae,Tetraciclina,"0,5",-,">0,5",,,,
+N.gonorrhoeae,Tigeciclina,EI,EI,EI,,,,
+N.gonorrhoeae,Agentes Diversos,Ponto de corte p/ CIM (mg/L),,,,,,
+N.gonorrhoeae,Espectinomicina,64,-,>64,,,,
+N.meningitidis,Benzilpenicilina (todas as indicações),"0,25",-,">0,25",,,,
+N.meningitidis,Ampicilina (infecções não meníngeas),"0,125","0,25-1",>1,,,,
+N.meningitidis,Ampicilina (meningite),EI,EI,EI,,,,
+N.meningitidis,Ampicilina-sulbactam,EI,EI,EI,,,,
+N.meningitidis,Amoxicilina (infecções não meníngeas),"0,125","0,25-1",>1,,,,
+N.meningitidis,Amoxicilina (meningite),EI,EI,EI,,,,
+N.meningitidis,Amoxicilina-ácido clavulânico,-,-,-,,,,
+N.meningitidis,Cefalosporinas,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+N.meningitidis,Cefiderocol,EI,EI,EI,,,,
+N.meningitidis,Cefotaxima (todas as indicações)1,"0,125",-,">0,125",,,,
+N.meningitidis,"Ceftriaxona (todas as indicações, incluindo profilaxia)1","0,125",-,">0,125",,,,
+N.meningitidis,"Carbapenêmicos1,2","Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+N.meningitidis,Doripenem,Nota2,Nota2,Nota2,,,,
+N.meningitidis,Ertapenem,EI,EI,EI,,,,
+N.meningitidis,Imipenem,Nota2,Nota2,Nota2,,,,
+N.meningitidis,Imipenem-relebactam3,"Nota2,3","Nota2,3","Nota2,3",,,,
+N.meningitidis,"Meropenem (todas as indicações)1,2","0,25",-,">0,25",,,,
+N.meningitidis,Meropenem-vaborbactam3,"Nota2,3","Nota2,3","Nota2,3",,,,
+N.meningitidis,Neisseria meningitidis,,,,,,,
+N.meningitidis,Regras de Especialistas e Fenótipos Esperados,Documentos de orientação,,,,,,
+N.meningitidis,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+N.meningitidis,"Ciprofloxacino (todas as indicações, incluindo meningite e profilaxia)","0,016",-,">0,016",,,,
+N.meningitidis,Delafloxacin,EI,EI,EI,,,,
+N.meningitidis,Levofloxacino,EI,EI,EI,,,,
+N.meningitidis,Moxifloxacino,EI,EI,EI,,,,
+N.meningitidis,Macrolídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+N.meningitidis,Azitromicina,-,-,-,,,,
+N.meningitidis,Claritromicina,-,-,-,,,,
+N.meningitidis,Eritromicina,-,-,-,,,,
+N.meningitidis,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+N.meningitidis,Eravaciclina,EI,EI,EI,,,,
+N.meningitidis,Minociclina (exclusivamente profilaxia),11,-,>11,,,,
+N.meningitidis,Tetraciclina (exclusivamente profilaxia),21,-,>21,,,,
+N.meningitidis,Tigeciclina,EI,EI,EI,,,,
+N.meningitidis,Agentes Diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+N.meningitidis,Cloranfenicol (meningite)1,2,-,>2,,,,
+N.meningitidis,Rifampicina (exclusivamente profilaxia),"0,25",-,">0,25",,,,
+N.meningitidis,Sulfametoxazol-trimetoprima,-,-,-,,,,
+Anaeróbios,Ampicilina-sulbactam,21,-,>21,25,-,<25,"1. Para fins de teste de sensibilidade, a concentração de sulbactam é fixada em 4 mg/L.
+2. Para fins de teste de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L.
+3. Isolados sensíveis a ampicilina-sulbactam e amoxicilina-ácido clavulânico podem ser resistentes a piperacilina-tazobactam.
+4. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L.
+5/A. Para obter informações sobre como usar pontos de corte entre parênteses, consultar https://www.eucast.org/eucastguidancedocuments/.
+
+B. Examinar os halos cuidadosamente e verificar a presença de colônias dentro dos mesmos. As colônias devem ser levadas em consideração na leitura."
+Anaeróbios,Amoxicilina-ácido clavulânico,22,-,>22,14,-,<14,
+Anaeróbios,Piperacilina-tazobactam3,24,-,>24,24,-,<24,
+Anaeróbios,Ertapenem,(2)5,-,(>2)5,(23)A,-,(<23)A,
+Anaeróbios,Imipenem,1,-,>1,29,-,<29,
+Anaeróbios,Meropenem,1,-,>1,28,-,<28,
+Anaeróbios,Clindamicina,(4)5,-,(>4)5,"(10)A,B",-,"(<10)A,B",
+Anaeróbios,Metronidazol,4,-,>4,25,-,<25,
+Anaeróbios,Anaeróbios,,,,,,,
+Anaeróbios,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Anaeróbios,"Para espécies não listadas abaixo, consultar o Documento de Orientação EUCAST sobre como testar e interpretar os resultados quando não houver pontos de corte",,,,,,,
+Anaeróbios,Prevotella spp.,,,,,,,
+Anaeróbios,Antimicrobiano,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Anaeróbios,Benzilpenicilina,"0,51",-,">0,51",20A,-,<20A,"1/A. Os isolados sensíveis à benzilpenicilina podem ser reportados como sensíveis a todos os agentes β-lactâmicos com pontos de corte (incluindo aqueles com Nota) sem testes adicionais. Os isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade a agentes individuais.
+2. Em concentrações muito baixas de ampicilina, amoxicilina e piperacilina quando em combinações de inibidores, a atividade antimicrobiana in vitro da concentração fixa de inibidor (2 mg/L para ácido clavulânico e 4 mg/L para sulbactam e tazobactam) é tal que valores artificialmente baixos de MIC podem ser obtidos. Portanto, nenhum ponto de corte pode ser fornecido. Isso não afeta o método de disco-difusão, onde a concentração do inibidor diminui proporcionalmente com a concentração do agente.
+
+B. A sensibilidade pode ser inferida a partir da ampicilina.
+C. Examinar os halos cuidadosamente e verificar a presença de colônias dentro dos mesmos. As colônias devem ser levadas em consideração na leitura."
+Anaeróbios,Ampicilina,"0,51",-,">0,51",25A,-,<25A,
+Anaeróbios,Ampicilina-sulbactam,"Nota1,2","Nota1,2","Nota1,2",33A,-,<33A,
+Anaeróbios,Amoxicilina,"0,251",-,">0,251","NotaA,B","NotaA,B","NotaA,B",
+Anaeróbios,Amoxicilina-ácido clavulânico,"Nota1,2","Nota1,2","Nota1,2",24A,-,<24A,
+Anaeróbios,Piperacilina-tazobactam,"Nota1,2","Nota1,2","Nota1,2",26A,-,<26A,
+Anaeróbios,Ertapenem,"0,51",-,">0,51",29A,-,<29A,
+Anaeróbios,Imipenem,"0,1251",-,">0,1251",35A,-,<35A,
+Anaeróbios,Meropenem,"0,251",-,">0,251",34A,-,<34A,
+Anaeróbios,Clindamicina,"0,25",-,">0,25",31C,-,<31C,
+Anaeróbios,Metronidazol,4,-,>4,22,-,<22,
+Anaeróbios,Fusobacterium necrophorum,,,,,,,
+Anaeróbios,Antimicrobiano,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Anaeróbios,Benzilpenicilina,"0,1251",-,">0,1251",25A,-,<25A,"1/A. Os isolados sensíveis à benzilpenicilina podem ser reportados como sensíveis a todos os agentes β-lactâmicos com pontos de corte (incluindo aqueles com Nota) sem testes adicionais. Os isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade a agentes individuais.
+2. Para fins de teste de sensibilidade, a concentração de sulbactam é fixada em 4 mg/L.
+3. Para fins de teste de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L.
+4. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L.
+
+B. A sensibilidade pode ser inferida a partir da ampicilina.
+C. Examinar os halos cuidadosamente e verificar a presença de colônias dentro dos mesmos. As colônias devem ser levadas em consideração na leitura."
+Anaeróbios,Ampicilina,"0,51",-,">0,51",27A,-,<27A,
+Anaeróbios,Ampicilina-sulbactam,"0,51,2",-,">0,51,2",33A,-,<33A,
+Anaeróbios,Amoxicilina,"0,51",-,">0,51","NotaA,B","NotaA,B","NotaA,B",
+Anaeróbios,Amoxicilina-ácido clavulânico,"0,51,3",-,">0,51,3",23A,-,<23A,
+Anaeróbios,Piperacilina-tazobactam,"0,51,4",-,">0,51,4",32,-,<32,
+Anaeróbios,Ertapenem,"0,061",-,">0,061",35A,-,<35A,
+Anaeróbios,Imipenem,"0,1251",-,">0,1251",36A,-,<36A,
+Anaeróbios,Meropenem,"0,031",-,">0,031",35A,-,<35A,
+Anaeróbios,Clindamicina,"0,25",-,">0,25",30C,-,<30C,
+Anaeróbios,Metronidazol,"0,5",-,">0,5",30,-,<30,
+Anaeróbios,Anaeróbios,,,,,,,
+Anaeróbios,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Anaeróbios,"Para espécies não listadas abaixo, consultar o Documento de Orientação EUCAST sobre como testar e interpretar os resultados quando não houver pontos de corte",,,,,,,
+Anaeróbios,Clostridium perfringens,,,,,,,
+Anaeróbios,Antimicrobiano,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Anaeróbios,Benzilpenicilina,"0,51",-,">0,51",15A,-,<15A,"1/A. Os isolados sensíveis à benzilpenicilina podem ser reportados como sensíveis a todos os agentes β-lactâmicos com pontos de corte (incluindo aqueles com Nota) sem testes adicionais. Os isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade a agentes individuais.
+2. Para fins de teste de sensibilidade, a concentração de sulbactam é fixada em 4 mg/L.
+3. Para fins de teste de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L.
+4. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L.
+
+B. A sensibilidade pode ser inferida a partir da ampicilina.
+C. Examinar os halos cuidadosamente e verificar a presença de colônias dentro dos mesmos. As colônias devem ser levadas em consideração na leitura."
+Anaeróbios,Ampicilina,"0,251",-,">0,251",23A,-,<23A,
+Anaeróbios,Ampicilina-sulbactam,"0,251,2",-,">0,251,2",27A,-,<27A,
+Anaeróbios,Amoxicilina,"0,251",-,">0,251","NotaA,B","NotaA,B","NotaA,B",
+Anaeróbios,Amoxicilina-ácido clavulânico,"0,251,3",-,">0,251,3",23A,-,<23A,
+Anaeróbios,Piperacilina-tazobactam,"0,51,4",-,">0,51,4",24A,-,<24A,
+Anaeróbios,Ertapenem,"0,51",-,">0,51",24A,-,<24A,
+Anaeróbios,Imipenem,"0,51",-,">0,51",25A,-,<25A,
+Anaeróbios,Meropenem,"0,1251",-,">0,1251",25A,-,<25A,
+Anaeróbios,Vancomicina,2,-,>2,12,-,<12,
+Anaeróbios,Clindamicina,"0,25",-,">0,25",19C,-,<19C,
+Anaeróbios,Metronidazol,4,-,>4,16,-,<16,
+Anaeróbios,Cutibacterium acnes,,,,,,,
+Anaeróbios,Antimicrobiano,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Anaeróbios,Benzilpenicilina,"0,061",-,">0,061",24A,-,<24A,"1/A. Os isolados sensíveis à benzilpenicilina podem ser reportados como sensíveis a todos os agentes β-lactâmicos com pontos de corte (incluindo aqueles com Nota) sem testes adicionais. Os isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade a agentes individuais.
+2. Em concentrações muito baixas de ampicilina, amoxicilina e piperacilina quando em combinações de inibidores, a atividade antimicrobiana in vitro da concentração fixa de inibidor (2 mg/L para ácido clavulânico e 4 mg/L para sulbactam e tazobactam) é tal que valores artificialmente baixos de MIC podem ser obtidos. Portanto, nenhum ponto de corte pode ser fornecido. Isso não afeta o método de disco-difusão, onde a concentração do inibidor diminui proporcionalmente com a concentração do agente.
+
+B. A sensibilidade pode ser inferida a partir da ampicilina.
+C. A sensibilidade à ceftriaxona pode ser inferida a partir do resultado da disco-difusão com cefotaxima.
+D. Examinar os halos cuidadosamente e verificar a presença de colônias dentro dos mesmos. As colônias devem ser levadas em consideração na leitura."
+Anaeróbios,Ampicilina,"0,251",-,">0,251",23A,-,<23A,
+Anaeróbios,Ampicilina-sulbactam,"Nota1,2","Nota1,2","Nota1,2",33A,-,<33A,
+Anaeróbios,Amoxicilina,"0,251",-,">0,251","NotaA,B","NotaA,B","NotaA,B",
+Anaeróbios,Amoxicilina-ácido clavulânico,"Nota1,2","Nota1,2","Nota1,2",24A,-,<24A,
+Anaeróbios,Piperacilina-tazobactam,"Nota1,2","Nota1,2","Nota1,2",27A,-,<27A,
+Anaeróbios,Cefotaxima,,,,"26A,C",-,"<26A,C",
+Anaeróbios,Ceftriaxona,"0,061",-,">0,061","33A,C",-,"<33A,C",
+Anaeróbios,Ertapenem,"0,251",-,">0,251",28A,-,<28A,
+Anaeróbios,Imipenem,"0,031",-,">0,031",39A,-,<39A,
+Anaeróbios,Meropenem,"0,1251",-,">0,1251",28A,-,<28A,
+Anaeróbios,Vancomicina,2,-,>2,22,-,<22,
+Anaeróbios,Clindamicina,"0,25",-,">0,25",26D,-,<26D,
+Anaeróbios,Linezolida,2,-,>2,34,-,<34,
+Anaeróbios,Anaeróbios,,,,,,,
+Anaeróbios,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Anaeróbios,"Para espécies não listadas abaixo, consultar o Documento de Orientação EUCAST sobre como testar e interpretar os resultados quando não houver pontos de corte",,,,,,,
+Anaeróbios,Clostridioides difficile,,,,,,,
+Anaeróbios,Antimicrobiano,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Anaeróbios,Vancomicina,21,-,>21,EP,EP,EP,1 Os pontos de corte são baseados em valores de corte epidemiológicos (ECOFFs) e se aplicam ao tratamento oral de infecções por C. difficile. Não há dados clínicos conclusivos sobre a relação entre CIMs e desfechos.
+Anaeróbios,Fidaxomicina,"0,51",-,"0,51",EP,EP,EP,
+Anaeróbios,Metronidazol,21,-,>21,EP,EP,EP,
+Anaeróbios,Exemplos de halos de inibição para bactérias anaeróbias.,,,,,,,
+Anaeróbios,"a) Se ocorrer uma névoa dentro do halo, ler a borda do halo mais evidente. Inclinar a placa em sua direção para definir melhor a borda mais evidente do halo.",,,,,,,
+Anaeróbios,"b) Colônias isoladas dentro do halo de inibição devem ser levadas em consideração. Para a clindamicina, é particularmente importante examinar cuidadosamente os halos em busca de colônias crescendo dentro do halo.",,,,,,,
+Anaeróbios,c) Ignorar a hemólise ao aferir os halos.,,,,,,,
+H.pylori,Amoxicilina oral,"0,125",-,">0,125",,,,
+H.pylori,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+H.pylori,Levofloxacino,1,-,>1,,,,
+H.pylori,Macrolídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+H.pylori,Claritromicina,"0,25",-,">0,25",,,,
+H.pylori,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+H.pylori,Tetraciclina,1,-,>1,,,,
+H.pylori,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,,,,
+H.pylori,Metronidazol,8,-,>8,,,,
+H.pylori,Rifampicina,1,-,>1,,,,
+Listeria,Benzilpenicilina (infecções não meníngeas),1,-,>1,13,-,<13,
+Listeria,Benzilpenicilina (meningite),EI,EI,EI,EI,EI,EI,
+Listeria,Ampicilina iv (todas as indicações),1,-,>1,16,-,<16,
+Listeria,Carbapenêmicos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Listeria,Meropenem (todas as indicações),"0,25",-,">0,25",26,-,<26,
+Listeria,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Listeria,Moxifloxacino (meningite),EI,EI,EI,EI,EI,EI,
+Listeria,Oxazolidinonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Listeria,Linezolida (meningite),EI,EI,EI,EI,EI,EI,
+Listeria,Macrolídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Listeria,Eritromicina (exceto meningites),1,-,>1,25,-,<25,
+Listeria,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Listeria,Sulfametoxazol-trimetoprima (todas as indicações)1,"0,06",-,">0,06",29,-,<29,1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+Pasteurella,Benzilpenicilina,"0,5",-,">0,5",17,-,<17,"1. Para fins de testes de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L."
+Pasteurella,Ampicilina,1,-,>1,NotaA,NotaA,NotaA,
+Pasteurella,Amoxicilina,1,-,>1,NotaA,NotaA,NotaA,A. Sensibilidade inferida a partir da sensibilidade à benzilpenicilina.
+Pasteurella,Amoxicilina-ácido clavulânico,11,-,>11,15,-,<15,
+Pasteurella,Cefalosporinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pasteurella,Cefotaxima,"0,03",-,">0,03",26,-,<26,
+Pasteurella,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pasteurella,Ciprofloxacino,"0,06",-,">0,06",27A,-,<27A,A. O teste de disco-difusão com ácido nalidíxico pode ser utilizado para triagem de resistência às fluoroquinolonas. Ver Nota B.                                                                                                                                                                           B. Isolados categorizados como teste de triagem negativo ao ácido nalidíxico (diâmetro do halo de inibição ≥23 mm) podem ser reportados como sensíveis ao ciprofloxacino e ao levofloxacino. Isolados categorizados como positivos (diâmetro do halo de inibição <23 mm) podem apresentar resistência às fluoroquinolonas e devem ser testados contra os antimicrobianos específicos ou reportados como resistentes.
+Pasteurella,Levofloxacino,"0,06",-,">0,06",27A,-,<27A,
+Pasteurella,Ácido nalidíxico (exclusivamente triagem),,,,23B,-,<23B,
+Pasteurella,Pasteurella spp.,,,,,,,
+Pasteurella,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Pasteurella,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pasteurella,Doxiciclina,1,-,>1,NotaA,NotaA,NotaA,A. Sensibilidade inferida a partir do teste de triagem com tetraciclina pelo método de disco-difusão.
+Pasteurella,Tetraciclina (exclusivamente triagem),,,,24A,-,<24A,
+Pasteurella,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Pasteurella,Sulfametoxazol-trimetoprima1,"0,25",-,">0,25",23,-,<23,1.Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+Campylobacter,Ciprofloxacino,"0,001","0,002-0,5",">0,5",50,26-49,<26,
+Campylobacter,Macrolídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Campylobacter,Azitromicina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,1/A. A sensibilidade à azitromicina e à claritromicina pode ser inferida a partir da eritromicina.
+Campylobacter,Claritromicina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,
+Campylobacter,"Eritromicina, C. jejuni",41,-,>41,20A,-,<20A,
+Campylobacter,"Eritromicina, C. coli",81,-,>81,24A,-,<24A,
+Campylobacter,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Campylobacter,Doxiciclina,Nota1,Nota1,Nota1,NotaA,NotaA,NotaA,1/A. A sensibilidade à doxiciclina pode ser inferida a partir da tetraciclina.
+Campylobacter,Tetraciclina,21,-,>21,30A,-,<30A,
+Corynebacterium,Benzilpenicilina,"0,001","0,002-1",>1,50,12-49,<12,
+Corynebacterium,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Ciprofloxacino,"0,001","0,002-1",>1,50,25-49,<25,
+Corynebacterium,Moxifloxacino,"0,5",-,">0,5",25,-,<25,
+Corynebacterium,Aminoglicosídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Gentamicina,EI,EI,EI,EI,EI,EI,
+Corynebacterium,Glicopeptídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Vancomicina,2,-,>2,17A,-,<17A,A. Isolados do tipo não-selvagem não estavam disponíveis durante o desenvolvimento do método de disco-difusão.
+Corynebacterium,Corynebacterium spp.,,,,,,,
+Corynebacterium,exceto C. diphtheriae e C. ulcerans,,,,,,,
+Corynebacterium,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Corynebacterium,Macrolídeos e lincosamidas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Clindamicina1,"0,5",-,">0,5",20,-,<20,"1. A resistência induzível à clindamicina pode ocorrer em Corynebacterium spp. A resistência pode ser detectada pelo antagonismo da atividade da clindamicina por um agente macrolídeo. O significado clínico é desconhecido. Atualmente, não há recomendação para o teste."
+Corynebacterium,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Tetraciclina,2,-,>2,24,-,<24,
+Corynebacterium,Oxazolidinonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Linezolida,2,-,>2,25,-,<25,
+Corynebacterium,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Corynebacterium,Rifampicina,"0,06",-,">0,06",30,-,<30,
+C.diphtheriae_C.ulcerans,Benzilpenicilina,"0,001","0,002-1",>1,50,12-49,<12,"1/A. Isolados classificados como ""sensível, aumentando exposição"" (I) à benzilpenicilina podem ser reportados como sensíveis à amoxicilina. Isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade à amoxicilina ou reportados como resistentes."
+C.diphtheriae_C.ulcerans,Amoxicilina,11,-,>11,NotaA,NotaA,NotaA,
+C.diphtheriae_C.ulcerans,Cefalosporinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Cefotaxima,"0,0011","0,002-21",>21,50A,15-49A,<15A,"1/A. Isolados classificados como ""sensível, aumentando exposição"" (I) à benzilpenicilina podem ser reportados como ""sensível, aumentando exposição"" (I) à cefotaxima.  Isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade à cefotaxima ou reportados como resistentes."
+C.diphtheriae_C.ulcerans,Carbapenêmicos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Meropenem,"0,251",-,">0,251",24A,-,<24A,"1/A. Isolados ""sensível, aumentando exposição"" (I) à benzilpenicilina podem ser reportados como sensíveis ao meropenem. Isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade ao meropenem ou reportados como resistentes."
+C.diphtheriae_C.ulcerans,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Ciprofloxacino,"0,001","0,002-0,5",">0,5",50,24-49,<24,
+C.diphtheriae_C.ulcerans,Corynebacterium diphtheriae e C. ulcerans,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",,
+C.diphtheriae_C.ulcerans,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+C.diphtheriae_C.ulcerans,Macrolídeos e lincosamidas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Eritromicina,"0,06",-,">0,06",24,-,<24,1. Isolados selvagens de C. ulcerans são menos sensíveis à clindamicina.
+C.diphtheriae_C.ulcerans,"Clindamicina, C. diphtheriae1","0,5",-,">0,5",15,-,<15,
+C.diphtheriae_C.ulcerans,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Doxiciclina,"0,51",-,">0,51",NotaA,NotaA,NotaA,1/A. Isolados sensíveis à tetraciclina podem ser reportados como sensíveis à doxiciclina. Isolados resistentes à tetraciclina devem ser testados quanto à sensibilidade à doxiciclina ou reportados como resistentes.
+C.diphtheriae_C.ulcerans,Tetraciclina,1,-,>1,24,,<24,
+C.diphtheriae_C.ulcerans,Oxazolidinonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Linezolida,2,-,>2,25,-,<25,
+C.diphtheriae_C.ulcerans,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+C.diphtheriae_C.ulcerans,Rifampicina,"0,06",-,">0,06",24,-,<24,1. Sulfametoxazol-trimetoprima na proporção 19:1. Pontos de corte expressos em concentração de trimetoprima.
+C.diphtheriae_C.ulcerans,Sulfametoxazol-trimetoprima1,"0,5",-,">0,5",23,-,<23,
+Aerococcus,Benzilpenicilina,"0,125",-,">0,125",21,-,<21,1/A. Sensibilidade inferida a partir da sensibilidade à ampicilina.
+Aerococcus,Ampicilina,"0,25",-,">0,25",26,-,<26,
+Aerococcus,Amoxicilina,Nota1,-,Nota1,NotaA,-,NotaA,
+Aerococcus,Carbapenêmicos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aerococcus,Meropenem,"0,25",-,">0,25",31,-,<31,
+Aerococcus,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aerococcus,Ciprofloxacino (exclusivamente ITU não complicada),2,-,>2,21A,-,<21A,"1. A sensibilidade pode ser inferida a partir da sensibilidade ao ciprofloxacino.
+
+A. A sensibilidade pode ser inferida a partir da sensibilidade ao norfloxacino. Ver Nota C. 
+B. A sensibilidade pode ser inferida a partir da sensibilidade ao ciprofloxacino ou norfloxacino. Ver Nota C. 
+C. O teste de disco-difusão com norfloxacino pode ser utilizado para triagem de resistência às fluoroquinolonas."
+Aerococcus,Levofloxacino (exclusivamente ITU não complicada),21,-,>21,NotaB,NotaB,NotaB,
+Aerococcus,Norfloxacino (exclusivamente triagem),,,,17C,-,<17C,
+Aerococcus,Glicopeptídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aerococcus,Vancomicina,1,-,>1,16A,-,<16A,A. Isolados do tipo não-selvagem não estavam disponíveis durante o desenvolvimento do método de disco-difusão.
+Aerococcus,Aerococcus sanguinicola e A. urinae,,,,,,,
+Aerococcus,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Aerococcus,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aerococcus,Nitrofurantoína (apenas ITU não complicada),16,-,>16,16,-,<16,
+Aerococcus,Rifampicina,"0,125",-,">0,125",25,-,<25,
+Kingella,Benzilpenicilina,"0,03",-,">0,03",25,-,<25,"1. Isolados produtores de β-lactamase podem ser reportados como resistentes à benzilpenicilina, à amoxicilina e à amoxicilina sem inibidores. Testes baseados em cefalosporina cromogênica podem ser utilizados na detecção de β-lactamase. Outros mecanismos de resistência aos β-lactâmicos que não sejam a produção de β-lactamase não foram, até o momento, descritos para K. kingae.
+2/A. A sensibilidade pode ser inferida a partir da sensibilidade à benzilpenicilina.
+3. A atividade antimicrobiana in vitro da concentração fixa de 2 mg/L de ácido clavulânico é tal que valores de CIM artificialmente baixos podem ser obtidos. Portanto, nenhum ponto de corte pode ser fornecido. Isso não afeta a disco-difusão, onde a concentração do inibidor diminui proporcionalmente com a concentração do agente."
+Kingella,Ampicilina,"0,062",-,">0,062",NotaA,-,NotaA,
+Kingella,Amoxicilina,"0,1252",-,">0,1252",NotaA,-,NotaA,
+Kingella,Amoxicilina-ácido clavulânico,Nota3,Nota3,Nota3,22,-,<22,
+Kingella,Cefalosporinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Kingella,Cefotaxima,"0,125",-,">0,125",27,-,<27,
+Kingella,Ceftriaxona,"0,06",-,">0,06",30,-,<30,
+Kingella,Cefuroxima iv,"0,5",-,">0,5",29,-,<29,
+Kingella,Carbapenêmicos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Kingella,Meropenem,"0,03",-,">0,03",30,-,<30,
+Kingella,Kingella kingae,,,,,,,
+Kingella,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Kingella,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Kingella,Ciprofloxacino,"0,06",-,">0,06",28,-,<28,
+Kingella,Levofloxacino,"0,125",-,">0,125",28,-,<28,
+Kingella,Macrolídeos e lincosamidas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Kingella,Azitromicina,"0,251",-,">0,251",NotaA,NotaA,NotaA,1. A sensibilidade pode ser inferida a partir da sensibilidade à eritromicina.
+Kingella,Claritromicina,"0,51",-,">0,51",NotaA,NotaA,NotaA,
+Kingella,Eritromicina,"0,5",-,">0,5",20,-,<20,A. Inferir a sensibilidade a partir da sensibilidade à eritromicina.
+Kingella,Clindamicina,-,-,-,-,-,-,
+Kingella,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Kingella,Doxiciclina,"0,51",-,">0,51",NotaA,NotaA,NotaA,1/A. Tetraciclina pode ser usada para triagem de resistência às demais tetraciclinas. Isolados categorizados como sensíveis no podem ser reportados como sensíveis à doxiciclina. Isolados categorizados como resistentes devem ser testados quanto à sensibilidade à doxiciclina ou reportados como resistentes.
+Kingella,Tetraciclina,"0,5",-,">0,5",28,-,<28,
+Kingella,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Kingella,Rifampicina,"0,5",-,">0,5",20,-,<20,1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+Kingella,Sulfametoxazol-trimetoprima1,"0,25",-,">0,25",28,-,<28,
+Aeromonas,Cefepima,1,2-4,>4,27,24-26,<24,
+Aeromonas,Ceftazidima,1,2-4,>4,24,21-23,<21,
+Aeromonas,Monobactâmicos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aeromonas,Aztreonam,1,2-4,>4,29,26-28,<26,
+Aeromonas,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aeromonas,Ciprofloxacino,"0,25","0,5",">0,5",27,24-26,<24,
+Aeromonas,Levofloxacino,"0,5",1,>1,27,24-26,<24,
+Aeromonas,Aeromonas spp.,,,,,,,
+Aeromonas,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Aeromonas,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Aeromonas,Sulfametoxazol-trimetoprima1,2,4,>4,19A,16-18A,<16A,"1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.                                                                                                                                                                                        A. Ao aferir o diâmetro do halo, considerar a borda bem definida e ignorar névoa ou crescimento dentro do halo. (Ver figuras abaixo)."
+Aeromonas,Exemplos de halos de inibição de Aeromonas spp. com sulfametoxazol-trimetoprima,,,,,,,
+Aeromonas,"a-c) Ao aferir o diâmetro do halo, considerar a borda bem definida do halo de inibição e ignorar névoa ou crescimento dentro do halo de inibição.",,,,,,,
+A. xylosoxidans,Piperacilina-tazobactam,41,-,>41,26,-,<26,"1. Para fins de testes de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L."
+A. xylosoxidans,Cefalosporinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+A. xylosoxidans,Cefiderocol1,Nota2,Nota2,Nota2,NotaA,NotaA,NotaA,"1. A determinação da CIM por microdiluição em caldo deve ser realizada em caldo Mueller-Hinton com depleção de ferro e instruções específicas de leitura devem ser seguidas. Para condições de teste e instruções de leitura, consultar https://www.eucast.org/eucastguidancedocuments/.
+2/A. A atividade in vitro do cefiderocol contra Achromobacter xylosoxidans é comparável à atividade do agente contra Enterobacterales e também há dados em animais que sugerem eficácia. No entanto, não há dados clínicos suficientes para determinar um ponto de corte clínico. Isolados com valores de CIM ≤ 0,5 mg/L (diâmetro do halo ≥ 26 mm) são, em sua maioria, desprovidos de mecanismos de resistência. Isolados com CIMs de 1-2 mg/L apresentam mecanismos de resistência adquiridos que podem resultar em resposta clínica inadequada. Isolados com valores de CIM > 2 mg/L (diâmetro do halo < 22 mm) provavelmente serão resistentes."
+A. xylosoxidans,Carbapenêmicos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+A. xylosoxidans,Meropenem,1,2-4,>4,26,20-25,<20,
+A. xylosoxidans,Achromobacter xylosoxidans,,,,,,,
+A. xylosoxidans,Regras de Especialistas e Fenótipos Esperados,,,,Documentos de orientação,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+A. xylosoxidans,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+A. xylosoxidans,Sulfametoxazol-trimetoprima1,"0,125",-,">0,125",26A,-,<26A,"1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+
+A.  Pode haver crescimento dentro da halo de inibição. A densidade do crescimento pode variar de uma névoa fina a um crescimento substancial (ver figuras abaixo). Ignorar o crescimento dentro do halo de inibição e ler o diâmetro externo visível do halo de inibição."
+A. xylosoxidans,Exemplos de halos de inibição de A. xylosoxidans ao testar sulfametoxazol-trimetoprima.,,,,,,,
+A. xylosoxidans,a-b) Um halo externo pode ser visualizado. Ler a borda externa do halo de inibição e interpretar conforme os pontos de corte.,,,,,,,
+A. xylosoxidans,c) Crescimento até a borda do disco e sem sinal de halo de inibição. Reportar como resistente.,,,,,,,
+Vibrio,Piperacilina-tazobactam,11,-,>11,26,-,<26,"1. Para fins de teste de sensibilidade, a concentração de tazobactam é fixada em 4 mg/L."
+Vibrio,Cefalosporinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Vibrio,Cefotaxima,"0,25",-,">0,25",21,-,<21,
+Vibrio,"Cefotaxima, V. fluvialis",EI,EI,EI,EI,EI,EI,
+Vibrio,Ceftazidima,1,-,>1,22,-,<22,
+Vibrio,Carbapenêmicos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Vibrio,Meropenem,"0,5",-,">0,5",24,-,<24,
+Vibrio,Fluoroquinolonas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Vibrio,Ciprofloxacino,"0,25",-,">0,25",23A,-,<23A,A. A sensibilidade ao ciprofloxacino e ao levofloxacino pode ser inferida a partir do teste de triagem de disco-difusão com pefloxacino.
+Vibrio,Levofloxacino,"0,25",-,">0,25",23A,-,<23A,
+Vibrio,Pefloxacino (exclusivamente triagem),,,,22A,-,<22A,
+Vibrio,Vibrio spp.,,,,,,,
+Vibrio,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+Vibrio,Macrolídeos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Vibrio,Azitromicina,4,-,>4,16A,-,<16A,"1/A. A sensibilidade à azitromicina (e à eritromicina, quando azitromicina não está disponível) é inferida a partir do teste de disco-difusão com eritromicina."
+Vibrio,Eritromicina (exclusivamente triagem)1,,,,12A,-,<12A,
+Vibrio,Tetraciclinas,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Vibrio,Doxiciclina,"0,5",-,">0,5",NotaA,-,NotaA,"1/A. A sensibilidade à doxiciclina (e à tetraciclina, quando doxiciclina não está disponível), é inferida a partir do teste de difusão-difusão com tetraciclina."
+Vibrio,Tetraciclina (exclusivamente triagem)1,,,,20A,-,<20A,
+Vibrio,Agentes diversos,Ponto de corte p/ CIM (mg/L),,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Vibrio,Sulfametoxazol-trimetoprima1,"0,25",-,">0,25",21,-,<21,1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+Bacillus,Imipenem,"0,5",-,">0,5",30,-,<30,
+Bacillus,Meropenem,"0,25",-,">0,25",25,-,<25,
+Bacillus,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Bacillus,Ciprofloxacino,"0,001","0,002-0,5",">0,5",50A,23-49A,<23A,"A. O teste de disco-difusão com norfloxacino pode ser utilizado para triagem de resistência à fluoroquinolonas. Ver Nota B.
+B. Os isolados categorizados como teste de triagem negativo ao norfloxacino (diâmetro do halo de inibição ≥21 mm) podem ser relatados como ""sensível, aumentando exposição"" (I)  ao ciprofloxacino e ao levofloxacino. Isolados categorizados como positivos na triagem (diâmetro do halo de inibição <21 mm) podem ser reportados como resistentes ao ciprofloxacino e ao levofloxacino."
+Bacillus,Levofloxacino,"0,001","0,002-1",>1,50A,23-49A,<23A,
+Bacillus,Norfloxacino (exclusivamente triagem),,,,21B,-,<21B,
+Bacillus,Glicopeptídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Bacillus,Vancomicina,2,-,>2,10A,-,<10A,A. Isolados não selvagens não estavam disponíveis durante o desenvolvimento do método de disco-difusão.
+Bacillus,Macrolídeos e Lincosamidas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Bacillus,Eritromicina,"0,5",-,">0,5",24,-,<24,
+Bacillus,Clindamicina,1,-,>1,17,-,<17,
+Bacillus,Oxazolidinonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+Bacillus,Linezolida,2,-,>2,22,-,<22,
+B. anthracis,Benzilpenicilina,"0,001","0,002-0,5",">0,5",50,18-49,<18,1/A. Isolados “sensíveis aumentando exposição” (I) à benzilpenicilina podem ser reportados como sensíveis à amoxicilina. Os isolados resistentes à benzilpenicilina devem ser testados quanto à sensibilidade à amoxicilina ou reportados como resistentes.
+B. anthracis,Amoxicilina iv,"0,1251",-,">0,1251",NotaA,NotaA,NotaA,
+B. anthracis,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. anthracis,Ciprofloxacino,"0,001","0,002-0,25",">0,25",50,24-49,<24,
+B. anthracis,Levofloxacino,"0,001","0,002-0,5",">0,5",50,23-49,<23,
+B. anthracis,Glicopeptídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. anthracis,Vancomicina,(4)1,-,(>4)1,(10)A,-,(<10)A,1/A. Para informações sobre como utilizar pontos de corte entre parênteses ver https://www.eucast.org/eucastguidancedocuments/.
+B. anthracis,Macrolídeos e lincosamidas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. anthracis,Clindamicina,1,-,>1,17,-,<17,
+B. anthracis,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. anthracis,Doxiciclina,"0,061",-,">0,061",NotaA,NotaA,NotaA,1/A. Isolados sensíveis à tetraciclina podem ser reportados como sensíveis à doxiciclina. Os isolados resistentes à tetraciclina devem ser testados quanto à sensibilidade à doxiciclina ou reportados como resistentes.
+B. anthracis,Tetraciclina,"0,125",-,">0,125",26,-,<26,
+B. anthracis,Bacillus anthracis,,,,,,"Tabela de Pontos de Corte Clínicos do BrCAST-EUCAST, válida a partir de 01-02-2025",
+B. anthracis,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+B. anthracis,Oxazolidinonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. anthracis,Linezolida,2,-,>2,20,-,<20,
+B. anthracis,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. anthracis,Rifampicina,(1)1,-,(>1)1,(12)A,-,(<12)A,1/A. Para informações sobre como utilizar pontoss de corte entre parênteses ver https://www.eucast.org/eucastguidancedocuments/.
+B. melitensis,Ceftriaxona (meningite),(2)1,-,(>2)1,(30)A,-,(<30)A,1/A. Para informações sobre como utilizar pontos de corte entre parênteses ver https://www.eucast.org/eucastguidancedocuments/.
+B. melitensis,Fluoroquinolonas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. melitensis,Ciprofloxacino,"0,001","0,002-1",>1,50,27-49,<27,
+B. melitensis,Levofloxacino,"0,001","0,002-1",>1,50,28-49,<28,
+B. melitensis,Aminoglicosídeos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. melitensis,Gentamicina,"(0,5)1",-,"(>0,5)1",(23)A,-,(<23)A,1/A. Para informações sobre como utilizar pontos de corte entre parênteses ver https://www.eucast.org/eucastguidancedocuments/.
+B. melitensis,Estreptomicina,(1)1,-,(>1)1,(15)A,-,(<15)A,
+B. melitensis,Tetraciclinas,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. melitensis,Doxiciclina,"0,251",-,">0,251",NoteA,NoteA,NoteA,1/A. Isolados sensíveis à tetraciclina podem ser reportados como sensíveis à doxiciclina. Os isolados resistentes à tetraciclina devem ser testados quanto à sensibilidade à doxiciclina ou reportados como resistentes.
+B. melitensis,Tetraciclina,"0,5",-,">0,5",42,-,<42,
+B. melitensis,Agentes diversos,"Ponto de corte p/ CIM
+ (mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B. melitensis,Rifampicina,(2)1,-,(>2)1,"(20)A,B",-,"(<20)A,B","1/A. Para informações sobre como utilizar pontos de corte entre parênteses ver https://www.eucast.org/eucastguidancedocuments/.
+2. Sulfametoxazol:trimetoprima na proporção 19:1. Os pontos de corte são expressos como concentração de trimetoprima.
+B. Examinar os halos de inibição cuidadosamente em busca de colônias próximas à borda do halo. As colônias devem ser levadas em consideração na leitura.
+C. Ler as bordas evidentes do halo e desconsiderar uma névoa ou crescimento discreto dentro do halo de inibição."
+B. melitensis,Sulfametoxazol-trimetoprima2,"0,125",-,">0,125",29C,-,<29C,
+B.pseudomallei,Amoxicilina-ácido clavulânico,"0,0011","0,002-81",>81,50,22-49,<22,"1. Para fins de testes de sensibilidade, a concentração de ácido clavulânico é fixada em 2 mg/L."
+B.pseudomallei,Cefalosporinas,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B.pseudomallei,Ceftazidima,"0,001","0,002-8",>8,50,18-49,<18,
+B.pseudomallei,Carbapenêmicos,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B.pseudomallei,Imipenem,2,-,>2,29,-,<29,
+B.pseudomallei,Meropenem,2,-,>2,24,-,<24,
+B.pseudomallei,Tetraciclinas,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B.pseudomallei,Doxiciclina,"0,001","0,002-2",>2,NoteA,NotaA,NoteA,"A. Isolados categorizados como negativos no teste de triagem  (≥23 mm) podem ser reportados com ""sensível, aumentado exposição"" (I) à doxicilina. Os isolados categorizados como positivos na triagem  (<23 mm) podem ser reportados como resistentes à doxiciclina."
+B.pseudomallei,Tetraciclina (exclusivamente triagem),,,,23A,-,<23A,
+B.pseudomallei,Burkholderia pseudomallei,,,,,,,
+B.pseudomallei,Regras de Especialistas e Fenótipos Esperados,,,,,,,"Para abreviações e explicações sobre pontos de corte, ver aba de Notas"
+B.pseudomallei,Agentes diversos,"Ponto de corte p/ CIM 
+(mg/L)",,,Ponto de corte p/ diâmetro do halo (mm),,,"Notas 
+Números para comentários gerais e/ou pontos de corte para CIM. 
+Letras para comentários sobre disco-difusão."
+B.pseudomallei,Cloranfenicol,"0,001","0,002-8",>8,50,22-49,<22,"1. Sulfametoxazol-trimetoprima na proporção 19:1. Os pontos de corte de CIM estão expressos como concentração de trimetoprima.
+
+A. Pode haver crescimento dentro do halo de inibição. A densidade do crescimento pode variar de uma névoa a um crescimento substancial (ver figuras abaixo). Caso algum halo de inibição seja observado, ignorar o crescimento dentro do halo de inibição e aferir o diâmetro do halo."
+B.pseudomallei,Sulfametoxazol-trimetoprima1,"0,001","0,002-4",>4,50A,17-49A,<17A,
+B.pseudomallei,Exemplos de halos de inibição de Burkholderia pseudomallei com sulfametozaxol-trimetoprima.,,,,,,,
+B.pseudomallei,a-b) Uma área externa pode ser observada. Aferir o diâmetro do halo externo e interpretar de acordo com os pontos de corte.,,,,,,,
+B.pseudomallei,c) Crescimento até o disco e ausência de halo de inibição. Reportar resistente.,,,,,,,
+M. tuberculosis,Bedaquilina,"0,251",-,">0,251",,,,
+M. tuberculosis,Delamanida,"0,061",-,">0,061",,,,
+M. tuberculosis,Pretomanida,"Nota1,2","Nota1,2","Nota1,2",,,,

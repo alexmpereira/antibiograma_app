@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: antibiograma_app
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app  # Sincroniza o código local com o contêiner (hot-reload)
+    environment:
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
