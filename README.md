@@ -20,9 +20,9 @@ A aplicação é dividida em dois eixos principais:
 1. **Interface Web (`app.py` & `templates/index.html`):** 
    A aplicação utiliza o framework Flask para renderizar a página web e lidar com as requisições do usuário. Ela permite que o usuário selecione o microrganismo, o antibiótico e insira a medida do halo.
 2. **Processamento de Dados (Pandas):** 
-   Para obter os pontos de corte dinamicamente, o sistema lê e analisa a planilha oficial do BrCAST (`Tabela-pontos-de-corte-clinico-BrCAST-01-02-2025.xlsx`) utilizando a biblioteca `pandas`. Ele busca a aba correspondente ao microrganismo, encontra o antibiótico e processa as regras de limite (`>=`, `<`, intervalos, etc.) para comparar com o diâmetro inserido pelo usuário.
+   Para obter os pontos de corte dinamicamente, o sistema lê e analisa a planilha oficial do BrCAST (`Tabela-pontos-de-corte-clinico-BrCAST-15-04-2026.xlsx`) utilizando a biblioteca `pandas`. Ele busca a aba correspondente ao microrganismo, encontra o antibiótico e processa as regras de limite (`>=`, `<`, intervalos, etc.) para comparar com o diâmetro inserido pelo usuário.
 
-> **Nota:** Há também um script utilitário secundário (`extract_br_cast.py`) que usa a biblioteca `tabula` para tentar extrair tabelas do documento em PDF, caso seja necessário gerar arquivos CSV. No entanto, o aplicativo principal consome os dados de forma mais robusta diretamente do Excel.
+> **Nota:** Há também um script utilitário secundário (`extract_br_cast.py`) que lê a planilha oficial do BrCAST no formato Excel (`.xlsx`) e gera o arquivo `breakpoints_br_cast.csv`, que é utilizado pela aplicação Flask de forma otimizada e dinâmica.
 
 ---
 
